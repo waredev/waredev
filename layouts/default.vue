@@ -2,7 +2,6 @@
   <div>
     <the-header />
     <Nuxt />
-    <the-services />
   </div>
 </template>
 

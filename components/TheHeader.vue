@@ -34,7 +34,7 @@ export default {
       console.log(window.scrollY);
     },
     getBackground(){
-      let background = this.scrollPostion > 80 ? 'backdrop-blur-xl bg-white/30' : 'bg-transparent'
+      let background = this.scrollPostion > 80 ? 'backdrop-blur-3xl bg-white/30' : 'bg-transparent'
       return background;
     }
 
