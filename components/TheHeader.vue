@@ -52,7 +52,7 @@ export default {
       console.log(window.scrollY);
     },
     getBackground(){
-      let background = this.scrollPostion > 80 ? 'backdrop-blur-md backdrop-saturate-50 bg-[rgba(255,255,255,0.5)]' : 'bg-transparent'
+      let background = this.scrollPostion > 80 ? 'backdrop-blur-3xl bg-white/30' : 'bg-transparent'
       return background;
     }
 
