@@ -14,6 +14,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('~assets/images/bg-pattern.png')",
+        'wave-group': "url('~assets/images/wave-group.png')",
         // 'texture': "url('/img/footer-texture.png')",
       }
 
