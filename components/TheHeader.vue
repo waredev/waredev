@@ -3,7 +3,7 @@
     <div class="w-full h-full flex items-center justify-between">
       <div class="flex items-end">
         <img src="~assets/images/logo.png" class="w-[4.063rem] h-[2.375rem]" />
-        <div class="font-nunito font-extrabold text-[#333333] text-2xl ml-2">Waredev</div>
+        <div class="font-nunito font-extrabold text-[#333333g] text-2xl ml-2">Waredev</div>
       </div>
       <div class="hidden xl:flex items-center space-x-12 font-nunito">
         <div class="relative group cursor-pointer">
@@ -52,7 +52,7 @@ export default {
       console.log(window.scrollY);
     },
     getBackground(){
-      let background = this.scrollPostion > 80 ? 'backdrop-blur-3xl bg-white/30' : 'bg-transparent'
+      let background = this.scrollPostion > 80 ? 'backdrop-blur-md backdrop-saturate-50 bg-[rgba(255,255,255,0.5)]' : 'bg-transparent'
       return background;
     }
 
