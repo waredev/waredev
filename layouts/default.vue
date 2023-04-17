@@ -2,7 +2,7 @@
   <div>
     <the-header />
     <Nuxt />
-    <the-footer />
+    <the-services />
   </div>
 </template>
 
@@ -10,7 +10,8 @@
 <script>
 import TheFooter from '~/components/TheFooter'
 import TheHeader from '~/components/TheHeader'
+import TheServices from '../components/TheServices.vue';
 export default {
-  components: { TheFooter, TheHeader },
+  components: { TheFooter, TheHeader, TheServices },
 }
 </script>
