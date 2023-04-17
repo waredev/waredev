@@ -1,14 +1,32 @@
 <template>
   <div class="w-full h-20 xl:px-20 px-10 fixed z-50" :class="getBackground()">
     <div class="w-full h-full flex items-center justify-between">
-      <img src="~assets/images/logo.png" class="w-[4.063rem] h-[2.375rem]" />
-      <div class="hidden xl:flex items-center space-x-10 font-nunito">
-        <div class="cursor-pointer">Home</div>
-        <div class="cursor-pointer">Services</div>
-        <div class="cursor-pointer">Portfolio</div>
-        <div class="cursor-pointer">About Us</div>
-        <div class="cursor-pointer">Blog</div>
-        <button class="bg-primary px-5 py-2 rounded-md text-white font-semibold">
+      <div class="flex items-end">
+        <img src="~assets/images/logo.png" class="w-[4.063rem] h-[2.375rem]" />
+        <div class="font-nunito font-extrabold text-[#333333] text-2xl ml-2">Waredev</div>
+      </div>
+      <div class="hidden xl:flex items-center space-x-12 font-nunito">
+        <div class="relative group cursor-pointer">
+          <div class='font-nunito group-hover:text-primary'>Home</div>
+          <span class="absolute -bottom-1 left-0 w-0 h-1 bg-primary rounded-full transition-all group-hover:w-full"></span>
+        </div>
+        <div class="relative group cursor-pointer">
+          <div class='font-nunito group-hover:text-primary'>Services</div>
+          <span class="absolute -bottom-1 left-0 w-0 h-1 bg-primary rounded-full transition-all group-hover:w-full"></span>
+        </div>
+        <div class="relative group cursor-pointer">
+          <div class='font-nunito group-hover:text-primary'>Portfolio</div>
+          <span class="absolute -bottom-1 left-0 w-0 h-1 bg-primary rounded-full transition-all group-hover:w-full"></span>
+        </div>
+        <div class="relative group cursor-pointer">
+          <div class='font-nunito group-hover:text-primary'>About Us</div>
+          <span class="absolute -bottom-1 left-0 w-0 h-1 bg-primary rounded-full transition-all group-hover:w-full"></span>
+        </div>
+        <div class="relative group cursor-pointer">
+          <div class='font-nunito group-hover:text-primary'>Blog</div>
+          <span class="absolute -bottom-1 left-0 w-0 h-1 bg-primary rounded-full transition-all group-hover:w-full"></span>
+        </div>
+        <button class="bg-primary px-5 py-1.5 rounded-md text-white font-semibold border-[2px] border-primary hover:bg-transparent hover:text-primary duration-150">
           Let's Talk
         </button>
       </div>
