@@ -4,6 +4,7 @@
     <div class="bg-wave-group h-96 bg-contain bg-no-repeat -mt-20 z-10 relative" />
     <services />
     <visions />
+    <articles />
   </div>
 </template>
 
