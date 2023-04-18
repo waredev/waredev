@@ -73,6 +73,6 @@
 </template>
 <script>
 export default {
-  name: "TheServices",
+  name: "Services",
 };
 </script>
