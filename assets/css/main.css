@@ -3,3 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.custom-shadow {
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+}

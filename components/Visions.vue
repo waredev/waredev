@@ -1,6 +1,6 @@
 <template>
   <section class="relative lg:pt-[10px] lg:pb-[20px]">
-    <img src="~/assets/images/asset-purple.png" alt="" class="flex w-full h-full">
+    <img src="~/assets/images/asset-purple-rounded.png" alt="" class="flex w-full h-full">
     <div class="absolute inset-0 flex items-center justify-center container mx-auto">
       <div class="grid grid-cols-3 gap-4 lg:mt-20">
         <div>

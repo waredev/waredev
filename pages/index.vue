@@ -1,7 +1,7 @@
 <template>
   <div>
     <the-hero />
-    <div class="bg-wave-group h-96 bg-contain bg-no-repeat -mt-20 z-10 relative" />
+    <div class="bg-wave-group h-96 bg-contain bg-no-repeat -mt-20 z-10 relative lg:flex hidden" />
     <services />
     <visions />
     <articles />
