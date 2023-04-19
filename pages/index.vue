@@ -5,6 +5,8 @@
     <services />
     <visions />
     <articles />
+    <img src="~/assets/images/asset-rentagle.png" alt="" class="bottom-2 mx-auto ml-22 w-[1311px] h-[292px]">
+    <testimoni />
   </div>
 </template>
 

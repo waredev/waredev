@@ -2,7 +2,7 @@
     <section class="py-6 sm:py-12 dark:bg-gray-800 dark:text-gray-100">
       <div class="container p-4 mx-auto space-y-8 space-x-2">
         <div class="space-y-2 text-center">
-          <h2 class="text-3xl font-bold">RECOMENDED READING</h2>
+          <h3 class="text-3xl font-bold">Recomended Reading</h3>
           <p class="font-serif text-sm dark:text-gray-400">----------</p>
         </div>
         <!-- <div class="swiper-container">
