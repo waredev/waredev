@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-20 xl:px-20 px-10 fixed z-50 custom-drop-blur" :class="getBackground()">
+  <div class="w-full h-20 xl:px-20 px-10 fixed z-50" :class="getBackground()">
     <div class="w-full h-full flex items-center justify-between">
       <div class="flex items-end">
         <img src="~assets/images/logo.png" class="w-[4.063rem] h-[2.375rem]" />
@@ -52,7 +52,7 @@ export default {
       console.log(window.scrollY);
     },
     getBackground(){
-      let background = this.scrollPostion > 80 ? 'backdrop-blur-3xl bg-white/30' : 'bg-transparent'
+      let background = this.scrollPostion > 80 ? 'backdrop-blur-3xl bg-white/30 custom-drop-blur' : 'bg-transparent'
       return background;
     }
 
