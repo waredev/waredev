@@ -1,10 +1,10 @@
 <template>
-    <section class="relative lg:pt-[50px] lg:pb-[20px]">
-        <img src="~/assets/images/asset-wave-aqua.png" alt="" class="flex w-full h-[800px]">
+    <section class="relative lg:pt-[70px] lg:mt-20 lg:pb-[20px] font-nunito">
+        <img src="~/assets/images/asset-footer.png" alt="" class="flex w-full h-[800px]">
         <div class="absolute inset-0 pt-20 items-center justify-center mt-32 container mx-auto">
             <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-                <h3 class="mb-6 text-3xl font-bold">Testimonials</h3>
-                <p class="mb-6 pb-2 md:mb-12 md:pb-0">
+                <h3 class="mb-4 text-4xl font-extrabold text-[#0a1060]">Testimonials</h3>
+                <p class="text-md text-[#888888] mb-14">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
                     error amet numquam iure provident voluptate esse quasi, veritatis
                     totam voluptas nostrum quisquam eum porro a pariatur veniam.

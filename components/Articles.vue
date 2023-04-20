@@ -2,7 +2,7 @@
     <section class="py-10 lg:h-screen h-auto xl:px-0 px-10 sm:py-12 dark:bg-gray-800 dark:text-gray-100 font-nunito">
       <div class="p-4 mx-auto space-y-8">
         <div class="space-y-2 flex flex-col items-center mb-10">
-          <h3 class="text-3xl font-bold uppercase">Recomended Reading</h3>
+          <h3 class="text-4xl font-extrabold text-[#0a1060] uppercase">Recomended Reading</h3>
           <div class="flex items-center space-x-1">
             <div class="w-10 h-2 bg-[#888888] rounded-full"></div>
             <div class="w-5 h-2 bg-[#888888] rounded-full"></div>
