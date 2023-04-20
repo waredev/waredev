@@ -15,6 +15,7 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('~assets/images/bg-pattern.png')",
         'wave-group': "url('~assets/images/wave-group.png')",
+        'vision-pattern': "url('~assets/images/asset-purple-rounded.png')",
         // 'texture': "url('/img/footer-texture.png')",
       }
 
@@ -23,7 +24,9 @@ module.exports = {
       transparent: 'transparent',
       primary: '#3843D0',
       white: '#FFFFFF',
-      'light-blue': '#F8F8FF'
+      'light-blue': '#F8F8FF',
+      word: '#0a1060',
+      purple: '#58409D'
     }
   },
   plugins: [],

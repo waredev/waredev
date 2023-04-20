@@ -5,7 +5,15 @@
     <services />
     <visions />
     <articles />
-    <img src="~/assets/images/asset-rentagle.png" alt="" class="bottom-2 mx-auto ml-22 w-[1311px] h-[292px]">
+    <div class="lg:absolute z-20 lg:-mt-14 lg:mb-0 mb-10 lg:px-20 px-10 font-nunito">
+      <div class="bg-purple lg:h-56 h-auto lg:rounded-[2.5rem] rounded-xl flex lg:flex-row flex-col lg:py-0 py-10 lg:text-left text-center items-center px-14">
+        <div>
+          <div class="font-bold text-5xl text-white">Let's make something creative</div>
+          <div class="text-white mt-1 text-2xl lg:pr-24">Reach out to us and we will help you organize the right action for your business needs.</div>
+        </div>
+        <div class="bg-white text-word w-72 h-16 cursor-pointer hover:bg-primary hover:text-white duration-150 lg:mt-0 mt-10 flex items-center justify-center font-bold text-2xl rounded-full">Hire Developers</div>
+      </div>
+    </div>
     <testimoni />
   </div>
 </template>

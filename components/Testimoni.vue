@@ -1,7 +1,7 @@
 <template>
     <section class="relative lg:pt-[50px] lg:pb-[20px]">
         <img src="~/assets/images/asset-wave-aqua.png" alt="" class="flex w-full h-[800px]">
-        <div class="absolute inset-0 pt-20 items-center justify-center container mx-auto">
+        <div class="absolute inset-0 pt-20 items-center justify-center mt-32 container mx-auto">
             <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
                 <h3 class="mb-6 text-3xl font-bold">Testimonials</h3>
                 <p class="mb-6 pb-2 md:mb-12 md:pb-0">
@@ -87,10 +87,9 @@
         </div>
     </section>
 </template>
-  
+
 <script>
 export default {
     name: "Visions",
 };
 </script>
-  
