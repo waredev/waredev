@@ -5,8 +5,8 @@
     <services />
     <visions />
     <articles />
-    <div class="lg:absolute z-20 lg:mt-[4rem] lg:mb-0 mb-10 lg:px-20 px-10 font-nunito">
-      <div class="bg-purple lg:h-44 h-auto lg:rounded-[2.5rem] rounded-xl flex lg:flex-row flex-col lg:py-0 py-10 lg:text-left text-center items-center px-14">
+    <div class="lg:absolute z-20 lg:-mt-[4rem] lg:mb-0 mb-10 lg:px-20 px-10 font-nunito">
+      <div class="bg-[#6d5b98] lg:h-44 h-auto lg:rounded-[2.5rem] rounded-xl flex lg:flex-row flex-col lg:py-0 py-10 lg:text-left text-center items-center px-14">
         <div>
           <div class="font-bold text-3xl text-white">Let's make something creative</div>
           <div class="text-white mt-1 text-xl lg:pr-24">Reach out to us and we will help you organize the right action for your business needs.</div>

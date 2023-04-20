@@ -1,5 +1,5 @@
 <template>
-  <section class="lg:h-screen h-auto lg:py-0 py-10 bg-purple xl:px-20 px-10 font-nunito flex items-center">
+  <section class="lg:h-screen h-auto lg:py-0 py-10 bg-[#6d5b98] xl:px-20 px-10 font-nunito flex items-center">
     <div class="flex space-x-5">
       <img src="~/assets/images/asset-phone.png" alt="" class="lg:flex hidden object-contain">
       <div class="w-full">
