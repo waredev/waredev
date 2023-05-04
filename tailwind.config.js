@@ -26,7 +26,8 @@ module.exports = {
       white: '#FFFFFF',
       'light-blue': '#F8F8FF',
       word: '#0a1060',
-      purple: '#58409D'
+      purple: '#58409D',
+      light: '#999bb0'
     }
   },
   plugins: [],

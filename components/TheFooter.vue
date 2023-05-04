@@ -1,14 +1,14 @@
 <template>
-	<footer class="px-4 -mt-20 pt-32 divide-y bg-[#6d5b98] font-nunito">
+	<footer class="px-4 pt-32 divide-y bg-[#6d5b98] font-nunito">
 		<div class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 			<div class="lg:w-1/3">
 				<a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
 					<div class="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
-
             <img src="~assets/images/logo.png" class=" dark:text-gray-900" />
 					</div>
           <div class="font-nunito font-extrabold text-[#ffffff] text-2xl ml-2 mt-3">Waredev</div>
 				</a>
+        <div class="mr-12 font-nunito text-white mt-4">Unlock your business's full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.</div>
 			</div>
 			<div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4 font-nunito text-[#ffffff]">
 				<div class="space-y-3">
@@ -38,27 +38,27 @@
 					<h3 class="tracking-wide uppercase dark:text-gray-50">Company</h3>
 					<ul class="space-y-1">
 						<li>
-							<a rel="noopener noreferrer" href="#">About</a>
+							<a rel="noopener noreferrer" href="#">About Us</a>
 						</li>
 						<li>
-							<a rel="noopener noreferrer" href="#">Contact</a>
+							<a rel="noopener noreferrer" href="#">Portfolio</a>
 						</li>
 						<li>
+							<a rel="noopener noreferrer" href="#">Blog</a>
+						</li>
+						<!-- <li>
 							<a rel="noopener noreferrer" href="#">Term of Service</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 				<div class="space-y-3 font-nunito text-[#ffffff]">
-					<h3 class="uppercase dark:text-gray-50">Developers</h3>
+					<h3 class="uppercase dark:text-gray-50">Contact</h3>
 					<ul class="space-y-1">
 						<li>
-							<a rel="noopener noreferrer" href="#">Public API</a>
+							<a rel="noopener noreferrer" href="#">support@waredev.co.id</a>
 						</li>
 						<li>
-							<a rel="noopener noreferrer" href="#">Documentation</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="#">Guides</a>
+							<a rel="noopener noreferrer" href="#">+62 821-9375-8418</a>
 						</li>
 					</ul>
 				</div>

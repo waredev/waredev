@@ -1,10 +1,10 @@
 <template>
-  <section class="relative lg:pt-[70px] lg:mt-10 lg:pb-[20px] font-nunito">
-    <img
+  <section class="relative lg:pt-[70px] lg:mt-10 lg:pb-[20px] font-nunito w-full h-[900px] bg-[#f8f8ff]">
+    <!-- <img
       src="~/assets/images/asset-footer.png"
       alt=""
       class="flex w-full h-[900px] lg:-mt-[7rem]"
-    />
+    /> -->
     <div
       class="absolute inset-0 pt-20 items-center justify-center mt-32 container mx-auto"
     >
