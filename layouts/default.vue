@@ -1,5 +1,6 @@
 <template>
   <div>
+    <SeoKit />
     <the-header />
     <Nuxt />
     <the-footer />

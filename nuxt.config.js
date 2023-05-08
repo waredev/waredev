@@ -21,14 +21,15 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Empowering Your Business with Innovative Software Solutions.' },
+      { hid: 'description', name: 'description', content: 'Unlock your business`s full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.' },
       { hid: 'og:title', name: 'og:title', content: 'Waredev Digital Solution | Custom Software Development' },
-      { hid: 'og:description', name: 'og:description', content: 'Empowering Your Business with Innovative Software Solutions.' },
+      { hid: 'og:description', name: 'og:description', content: 'Unlock your business`s full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.' },
       { hid: 'og:image', name: 'og:image', content: '/assets/images/logo.png' },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'keywords', name: 'keywords', content: 'waredev, waredev digital solution, waredev.co.id, waredev custom software development, custom software development, CV. Waredev Digital Solution' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'canonical', href: 'https://waredev.co.id/' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -51,13 +52,26 @@ export default {
   modules: [
     '@nuxtjs/sitemap'
   ],
-  sitemap: {
-    hostname: 'https://waredev.co.id',
-    gzip: true,
-    // exclude: [],
-    routes: [
-      '/',
-    ]
+  // sitemap: {
+  //   hostname: 'https://waredev.co.id',
+  //   gzip: true,
+  //   // exclude: [],
+  //   routes: [
+  //     '/',
+  //   ]
+  // },
+
+  extends: [
+    'nuxt-seo-kit'
+  ],
+
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://waredev.co.id/',
+      siteName: 'Waredev Digital Solution | Custom Software Development',
+      siteDescription: 'Empowering Your Business with Innovative Software Solutions. Unlock your business`s full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.',
+      language: 'en', // prefer more explicit language codes like `en-AU` over `en`
+    }
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
