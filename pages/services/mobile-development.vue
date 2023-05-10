@@ -8,8 +8,8 @@
       <img src="~assets/images/mobile-app-development-isometric.jpg" class="w-[44rem] object-contain">
       <div class="font-nunito lg:pr-20 mt-14">
         <div class="font-bold text-word text-4xl lg:text-left text-center">What we offer?</div>
-        <div class="mt-5 text-[#888888] lg:text-left text-center">Looking to strengthen your online presence? Or build an impressive website for your visitors? Don't worry, we are here to help. Our website development team has experience in developing websites for various types of businesses and organizations.</div>
-        <div class="mt-5 text-[#888888] lg:text-left text-center">From designing the layout to integrating the necessary features and functionalities, we are ready to create a website that meets your needs. We prioritize quality and website security, so you can feel confident in running your online business. Join us and experience the benefits of a modern, fast, and user-friendly website to increase the visibility and success of your business.</div>
+        <div class="mt-5 text-[#888888] lg:text-left text-center">In today's digital era, the use of mobile applications has become an increasingly important requirement for businesses. Mobile applications can help expand your business reach, increase customer loyalty, and provide a better user experience.</div>
+        <div class="mt-5 text-[#888888] lg:text-left text-center">We are here to help your business develop mobile applications that suit your business needs. Our team of experts will work with you to ensure that the mobile application we develop can provide the best solution for your business. Contact us now to get the best offer and start strengthening your business with reliable and professional mobile applications.</div>
       </div>
     </div>
     <div class="font-nunito mt-32">
