@@ -28,7 +28,9 @@ module.exports = {
       'light-blue': '#F8F8FF',
       word: '#0a1060',
       purple: '#58409D',
-      light: '#999bb0'
+      light: '#999bb0',
+      black: '#000000',
+      gray: '#edf2f7'
     }
   },
   plugins: [],

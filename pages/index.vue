@@ -15,11 +15,19 @@
       </div>
     </div>
     <testimoni />
+    <form-modal v-show="showModal" @close-modal="showModal = false"/>
   </div>
 </template>
 
 <script>
+import FormModal from '../components/FormModal.vue'
 export default {
+  components: { FormModal },
   name: 'IndexPage',
+  data() {
+    return {
+      showModal: true,
+    }
+  },
 }
 </script>
