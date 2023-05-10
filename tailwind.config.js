@@ -16,6 +16,7 @@ module.exports = {
         'hero-pattern': "url('~assets/images/bg-pattern.png')",
         'wave-group': "url('~assets/images/wave-group.png')",
         'vision-pattern': "url('~assets/images/asset-purple-rounded.png')",
+        'cooperation': "url('~assets/images/business-partners-handshake-international-business-concept.png')",
         // 'texture': "url('/img/footer-texture.png')",
       }
 

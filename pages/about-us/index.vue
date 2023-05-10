@@ -15,7 +15,7 @@
       <div class="grid lg:grid-cols-3 grid-cols-none grid-rows-3 lg:grid-rows-none py-10">
         <div class="flex flex-col items-center">
           <div class="w-72 mb-5">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" class="w-72 h-80 object-cover rounded-md" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" class="w-72 h-80 object-cover rounded-md" />
             <div class="text-word font-nunito font-bold text-xl mt-5">Dudi Ali Murtado</div>
             <div class="text-word font-nunito text-sm mt-2">Chief Technology Officer</div>
           </div>

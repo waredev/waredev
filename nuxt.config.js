@@ -29,7 +29,7 @@ export default {
       { hid: 'keywords', name: 'keywords', content: 'waredev, waredev digital solution, waredev.co.id, waredev custom software development, custom software development, CV. Waredev Digital Solution' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    link: [{ rel: 'canonical', href: 'https://waredev.co.id/' }],
+    link: [{ rel: 'canonical', href: 'https://waredev.co.id' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -67,7 +67,7 @@ export default {
 
   runtimeConfig: {
     public: {
-      siteUrl: 'https://waredev.co.id/',
+      siteUrl: 'https://waredev.co.id',
       siteName: 'Waredev Digital Solution | Custom Software Development',
       siteDescription: 'Empowering Your Business with Innovative Software Solutions. Unlock your business`s full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.',
       language: 'en', // prefer more explicit language codes like `en-AU` over `en`
