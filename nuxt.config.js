@@ -50,16 +50,16 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-
+    '@nuxtjs/sitemap'
   ],
-  // sitemap: {
-  //   hostname: 'https://waredev.co.id',
-  //   gzip: true,
-  //   // exclude: [],
-  //   routes: [
-  //     '/',
-  //   ]
-  // },
+  sitemap: {
+    hostname: 'https://waredev.co.id',
+    gzip: true,
+    // exclude: [],
+    routes: [
+      '/',
+    ]
+  },
 
   extends: [
     'nuxt-seo-kit'
