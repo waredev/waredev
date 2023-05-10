@@ -50,7 +50,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/sitemap'
+
   ],
   // sitemap: {
   //   hostname: 'https://waredev.co.id',
