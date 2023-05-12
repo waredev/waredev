@@ -36,6 +36,36 @@
         <div class="text-[#888888] text-center mt-5 lg:px-32">Accelerate your application development with a fast and customizable API solution designed to maximize your business efficiency and productivity.</div>
       </div>
     </div>
+    <div class="font-nunito mt-32">
+      <div class="font-bold text-center text-word text-3xl">Technology we use</div>
+      <div class="text-center text-word lg:mx-[23rem] mt-5">Choosing the right tools, tech stack and processes helped us build a product that is scalable and able to onboard new users</div>
+      <div class="grid grid-cols-4 lg:px-72 mt-10 gap-5">
+        <div class="flex items-center justify-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png" class="w-20 object-contain">
+        </div>
+        <div class="flex items-center justify-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" class="w-20 object-contain">
+        </div>
+        <div class="flex items-center justify-center">
+          <img src="https://cdn.worldvectorlogo.com/logos/lumen-1.svg" class="w-10 object-contain">
+        </div>
+        <div class="flex items-center justify-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" class="w-20 object-contain">
+        </div>
+        <div class="flex items-center justify-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" class="w-20 object-contain">
+        </div>
+        <div class="flex items-center justify-center">
+          <img src="https://static.djangoproject.com/img/logos/django-logo-positive.png" class="w-24 object-contain">
+        </div>
+        <div class="flex items-center justify-center">
+          <img src="https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png" class="w-32 object-contain">
+        </div>
+        <div class="flex items-center justify-center">
+          <img src="https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png" class="w-32 object-contain">
+        </div>
+      </div>
+    </div>
     <div class="bg-cooperation bg-no-repeat bg-cover w-full bg-top rounded-xl mt-24">
       <div class="w-full h-full bg-primary bg-opacity-50 py-14 rounded-xl flex flex-col justify-center px-24">
         <div class="font-nunito text-4xl text-white font-bold">Work Together With Us.</div>
