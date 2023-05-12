@@ -14,8 +14,8 @@
         <div class="bg-white text-word w-72 h-16 cursor-pointer hover:bg-primary hover:text-white duration-150 lg:mt-0 mt-10 flex items-center justify-center font-bold text-2xl rounded-full">Hire Developers</div>
       </div>
     </div>
-    <testimoni />
-    <form-modal v-show="showModal" @close-modal="showModal = false"/>
+    <reviews />
+    <form-modal v-show="showModal" @close-modal="handleCloseModal"/>
   </div>
 </template>
 
@@ -26,8 +26,26 @@ export default {
   name: 'IndexPage',
   data() {
     return {
-      showModal: true,
+      showModal: false,
     }
   },
+  mounted(){
+    setTimeout(() => {
+      const isOpen = localStorage.getItem('isModalOpen');
+      if(isOpen === null){
+        this.showModal = true
+        return
+      }
+      if(!isOpen){
+        this.showModal = isOpen;
+      }
+    },1000)
+  },
+  methods: {
+    handleCloseModal(){
+      localStorage.setItem('isModalOpen', false);
+      this.showModal = false;
+    }
+  }
 }
 </script>

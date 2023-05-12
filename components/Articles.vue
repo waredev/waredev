@@ -1,8 +1,8 @@
 <template>
-  <section class="lg:h-screen h-auto xl:px-0 px-10 sm:py-12 dark:bg-gray-800 dark:text-gray-100 font-nunito">
-    <div class="container px-5 py-5 mx-auto">
+  <section class="h-auto mb-20 xl:px-0 px-5 font-nunito">
+    <div class="container px-5 py-20 mx-auto">
       <div class="space-y-2 flex flex-col items-center mb-10">
-        <h3 class="text-4xl font-extrabold text-[#0a1060] uppercase text-center">Recommended Reading</h3>
+        <h3 class="text-4xl font-extrabold text-[#0a1060] text-center">Recommended Reading</h3>
         <div class="flex items-center space-x-1">
           <div class="w-10 h-2 bg-[#0a1060] rounded-full"></div>
           <div class="w-5 h-2 bg-[#0a1060] rounded-full"></div>
@@ -13,21 +13,7 @@
         <!--start here-->
         <div v-for="article in articles" :key="article.id" class="lg:p-5 w-full">
           <div class="h-full custom-shadow rounded-lg overflow-hidden">
-            <!-- <div class="w-full">
-              <div class="w-full flex p-2">
-                <div class="p-2 ">
-                  <img
-                  :src="article.image"
-                    alt="author" class="w-10 h-10 rounded-full overflow-hidden" />
-                </div>
-                <div class="pl-2 pt-2 ">
-                  <p class="font-bold">{{article.author}}</p>
-                  <p class="text-xs">{{article.date}}</p>
-                </div>
-              </div>
-            </div> -->
             <img class="lg:h-48 md:h-36 w-full object-cover object-center" :src="article.image" alt="blog cover" />
-
             <div class="p-4">
               <h2 class="text-xs title-font font-bold text-green-400 mb-1 uppercase ">Web development</h2>
               <h1 class="title-font text-lg font-medium text-gray-900 mb-3">This is a blog template</h1>
@@ -52,22 +38,7 @@
 </template>
 
 <script>
-// import Swiper from 'swiper';
-// import 'swiper/css';
-
 export default {
-  // mounted() {
-  //   const swiper = new Swiper('.swiper-container', {
-  //     slidesPerView: 2,
-  //     spaceBetween: 30,
-  //     pagination: {
-  //       el: '.swiper-pagination',
-  //       clickable: true,
-  //     },
-  //   });
-  //   return swiper
-  // },
-
   data() {
     return {
       articles: [

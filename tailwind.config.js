@@ -30,7 +30,8 @@ module.exports = {
       purple: '#58409D',
       light: '#999bb0',
       black: '#000000',
-      gray: '#edf2f7'
+      gray: '#edf2f7',
+      orange: '#FF914D'
     }
   },
   plugins: [],

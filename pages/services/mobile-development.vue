@@ -14,6 +14,7 @@
     </div>
     <div class="font-nunito mt-32">
       <div class="font-bold text-word text-3xl lg:text-left text-center lg:pr-[35rem]">Efficiently develop your app with our proven methodology and industry best practices</div>
+      <div class="h-1 w-10 mt-3 bg-orange rounded-full"></div>
       <div class="mt-5 text-[#888888] lg:text-left text-center lg:pr-[35rem]">Mobile app development is not a one-time effort, but an ongoing process of constant iteration to continuously improve your product. As mobile devices and technologies evolve, so do your users' needs and behavior. It's crucial to have the right tools and battle-tested methodologies to face these challenges head-on. At our company, we believe in never stopping the process, constantly pushing for excellence, and delivering a mobile app that exceeds your expectations. Let's work together to create a powerful and engaging mobile experience for your users.</div>
       <div class="grid lg:grid-cols-4 grid-cols-1 gap-5 mt-14 lg:mx-32 mx-24">
         <div class="relative">

@@ -78,10 +78,6 @@ export default {
         {
           slug: 'ui-ux-design',
           label: 'UI/UX Design'
-        },
-        {
-          slug: 'support-and-maintenance',
-          label: 'Support and Maintenance'
         }
       ]
     }
