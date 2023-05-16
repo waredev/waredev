@@ -13,8 +13,8 @@ module.exports = {
         nunito: 'nunito'
       },
       backgroundImage: {
-        'hero-pattern': "url('~assets/images/bg-pattern.png')",
-        'wave-group': "url('~assets/images/wave-group.png')",
+        'hero-pattern': "url('~assets/images/bg-pattern.webp')",
+        'wave-group': "url('~assets/images/wave-group.webp')",
         'vision-pattern': "url('~assets/images/asset-purple-rounded.png')",
         'cooperation': "url('~assets/images/business-partners-handshake-international-business-concept.png')",
         // 'texture': "url('/img/footer-texture.png')",

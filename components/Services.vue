@@ -1,7 +1,7 @@
 <template>
   <section class="xl:px-20 px-10 flex xl:space-x-24 space-x-0 xl:mt-0 mt-14 py-20">
     <div class="xl:flex hidden">
-      <img src="~/assets/images/service-image.png" alt="" class="w-[42.438rem] h-[33.75rem]">
+      <img src="~/assets/images/service-image.webp" alt="" class="w-[42.438rem] h-[33.75rem]">
     </div>
     <div class="font-nunito">
       <div class="text-4xl font-extrabold text-[#0a1060] lg:text-left text-center">What Our Services</div>

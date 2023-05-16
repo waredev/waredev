@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen relative bg-light-blue">
-    <img src="~/assets/images/bg-pattern.png" class="w-[45.25rem] h-[35.5rem] absolute z-0">
+    <img src="~/assets/images/bg-pattern.webp" class="w-[45.25rem] h-[35.5rem] absolute z-0">
     <div class="z-10 relative pt-40 flex items-center lg:px-20 px-10">
       <div class="lg:pr-20 pr-0">
         <div class="lg:text-5xl text-4xl font-nunito font-bold text-[#333333] mb-8 leading-tight lg:text-left text-center">Empowering Your Business with Innovative Software Solutions.</div>
@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="hidden lg:flex">
-        <img src="~/assets/images/img-hero.png" class="w-[63rem]">
+        <img src="~/assets/images/img-hero.webp" class="w-[63rem]">
       </div>
     </div>
   </div>

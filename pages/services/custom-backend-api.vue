@@ -5,7 +5,7 @@
       <div class="text-md text-light mt-2">Tailored backend and APIs for your unique needs. <br> Powering your digital vision</div>
     </div>
     <div class="grid lg:grid-cols-2 gap-5 mt-20">
-      <img src="~assets/images/custom-backend.png" class="w-[44rem] object-contain">
+      <img src="~assets/images/custom-backend.webp" class="w-[44rem] object-contain">
       <div class="font-nunito lg:pr-20 mt-14">
         <div class="font-bold text-word text-4xl lg:text-left text-center">What we offer?</div>
         <div class="mt-5 text-[#888888] lg:text-left text-center">Custom Backend/API is a technology solution built to meet your business needs. Built with the latest technology and personalized to your requirements, the backend and API solutions we develop can help you improve operational efficiency, enhance user experience, and accelerate application development.</div>
