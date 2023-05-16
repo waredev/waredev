@@ -1,7 +1,7 @@
 <template>
 
   <section class="pt-32 font-nunito">
-    <div v-if="article" class="mb-24 xl:px-64 px-10">
+    <div v-if="article" class="mb-24 xl:px-80 px-10">
       <div class="font-extrabold text-3xl font-word">{{article.title}}</div>
       <div class="font-bold text-light mt-1.5 uppercase">{{article.date}}</div>
       <div class="flex lg:flex-row flex-col items-start justify-between mt-10">
@@ -15,16 +15,26 @@
         <div class="lg:mt-0 mt-5">
           <div class="font-bold text-light uppercase lg:text-right text-left">Bagikan Artikel Ini</div>
           <div class="flex items-center space-x-5 mt-2">
-            <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6de7b37993cd5b90df_u_facebook.svg" class="w-7 h-7">
-            <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6ec38dd13e4ec0b978_u_linkedin.svg" class="w-7 h-7">
-            <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6db520dfca935bc578_u_twitter.svg" class="w-7 h-7">
-            <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6d93d67da1c0f5ac17_u_whatsapp-alt.svg" class="w-7 h-7">
+            <nuxt-link to="/">
+               <img src="~assets/images/5282541_fb_social.svg" class="w-7 h-7 fill-orange">
+            </nuxt-link>
+            <nuxt-link to="/">
+              <img src="~assets/images/5282542_linkedin_social.svg" class="w-7 h-7 fill-orange">
+            </nuxt-link>
+            <nuxt-link to="/">
+              <img src="~assets/images/5282551_tweet.svg" class="w-7 h-7 fill-orange">
+            </nuxt-link>
+            <nuxt-link to="/">
+              <img src="~assets/images/5282549_whatsapp.svg" class="w-7 h-7 fill-orange">
+            </nuxt-link>
             <div class="h-4 w-0.5 bg-[#cacdd5] rounded-full"></div>
-            <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6dcfaef2b5a6fed096_u_link-h.svg" class="w-7 h-7">
+            <nuxt-link to="/">
+              <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6dcfaef2b5a6fed096_u_link-h.svg" class="w-7 h-7">
+            </nuxt-link>
           </div>
         </div>
       </div>
-      <img :src="article.image.src" :alt="article.image.alt" class="w-2/3 mx-auto object-contain">
+      <img :src="article.image.src" :alt="article.image.alt" class="w-3/4 mx-auto object-contain mt-10">
       <div class="mt-10">
         <nuxt-content :document="article" class="font-nunito text-word nuxt-contentx" />
       </div>
@@ -56,7 +66,29 @@
     async asyncData({ $content, params }) {
       const article = await $content('articles', params.slug).fetch();
       return { article }
-    }
+    },
+    head(){
+      return {
+         title: this.article.title,
+          meta: [
+            {
+              hid: "og:description",
+              name: "og:description",
+              content: this.article.description,
+            },
+            {
+              hid: "og:image",
+              name: "og:image",
+              content: this.article.image.src,
+            },
+            {
+              hid: "og:keywords",
+              name: "og:keywords",
+              content: this.article.head.meta,
+            }
+          ]
+      }
+    },
   }
 </script>
 <style scoped>
