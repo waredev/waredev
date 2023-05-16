@@ -51,8 +51,13 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxt/content'
   ],
+  content: {
+    liveEdit: false
+  },
+
   sitemap: {
     hostname: 'https://waredev.co.id',
     gzip: true,
