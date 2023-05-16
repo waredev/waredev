@@ -16,21 +16,20 @@ export default {
   //     // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap' },
   //   ]
   // },
-  head: {
-    title: 'Waredev Digital Solution | Custom Software Development',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Unlock your business`s full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.' },
-      { hid: 'og:title', name: 'og:title', content: 'Waredev Digital Solution | Custom Software Development' },
-      { hid: 'og:description', name: 'og:description', content: 'Unlock your business`s full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.' },
-      { hid: 'og:image', name: 'og:image', content: '/assets/images/logo.png' },
-      { name: 'format-detection', content: 'telephone=no' },
-      { hid: 'keywords', name: 'keywords', content: 'waredev, waredev digital solution, waredev.co.id, waredev custom software development, custom software development, CV. Waredev Digital Solution' }
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    link: [{ rel: 'canonical', href: 'https://waredev.co.id' }],
-  },
+  // head: {
+  //   title: 'Waredev Digital Solution | Custom Software Development',
+  //   meta: [
+  //     { charset: 'utf-8' },
+  //     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+  //     { hid: 'title', name: 'og:title', content: 'Waredev Digital Solution | Custom Software Development' },
+  //     { hid: 'description', name: 'og:description', content: 'Unlock your business`s full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.' },
+  //     { hid: 'image', name: 'og:image', content: '/assets/images/logo.png' },
+  //     { name: 'format-detection', content: 'telephone=no' },
+  //     { hid: 'keywords', name: 'keywords', content: 'waredev, waredev digital solution, waredev.co.id, waredev custom software development, custom software development, CV. Waredev Digital Solution' }
+  //   ],
+  //   link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+  //   link: [{ rel: 'canonical', href: 'https://waredev.co.id' }],
+  // },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [

@@ -82,6 +82,20 @@
 </template>
 <script>
 export default {
-  name: 'Internet Of Things (iOT)'
+  name: 'InternetOfThingsPage',
+  head(){
+    return {
+      title: 'Waredev - Internet Of Things (iOT) Service',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'title', name: 'og:title', content: 'Waredev - Internet Of Things (iOT) Service' },
+        { hid: 'description', name: 'og:description', content: 'Internet of Things (IoT) services help elaborate your idea of IoT adoption and set up secure technology infrastructure for advanced data tasks.' },
+        { hid: 'image', name: 'og:image', content: '/assets/images/19198365.webp' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { hid: 'keywords', name: 'keywords', content: 'waredev, waredev internet of things (iot), services, waredev digital solution, waredev.co.id' }
+      ]
+    }
+  },
 }
 </script>

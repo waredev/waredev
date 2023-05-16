@@ -79,6 +79,20 @@
 </template>
 <script>
 export default {
-  name: 'Mobile Development'
+  name: 'MobileDevelopmentPage',
+  head(){
+    return {
+      title: 'Waredev - Mobile Development Service',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'title', name: 'og:title', content: 'Waredev - Mobile Development Service' },
+        { hid: 'description', name: 'og:description', content: 'With proven process and our commitment to quality, we build stable and optimized Android & iOS App' },
+        { hid: 'image', name: 'og:image', content: '/assets/images/mobile-app-development-isometric.webp' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { hid: 'keywords', name: 'keywords', content: 'waredev, waredev mobile development, services, waredev digital solution, waredev.co.id' }
+      ]
+    }
+  },
 }
 </script>

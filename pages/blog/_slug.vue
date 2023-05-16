@@ -63,51 +63,58 @@
 </template>
 <script>
   export default {
+    head(){
+      return {
+        title: this.article.title,
+        meta: [
+          {
+            charset: 'utf-8'
+          },
+          {
+            name: 'viewport',
+            content: 'width=device-width, initial scale=1'
+          },
+          {
+            hid: "title",
+            name: "og:title",
+            content: this.article.title,
+          },
+          {
+            hid: "description",
+            name: "og:description",
+            content: this.article.description,
+          },
+          {
+            hid: "image",
+            name: "og:image",
+            content: this.article.image.src,
+          },
+          {
+            hid: "keywords",
+            name: "og:keywords",
+            content: this.article.head.meta.keywords.content,
+          },
+          {
+            hid: "robots",
+            name: "og:robots",
+            content: this.article.head.meta.robots.content,
+          },
+          {
+            hid: "author",
+            name: "og:author",
+            content: this.article.head.meta.author.content,
+          },
+          {
+            hid: "copyright",
+            name: "og:copyright",
+            content: this.article.head.meta.copyright.content,
+          },
+        ]
+      }
+    },
     async asyncData({ $content, params }) {
       const article = await $content('articles', params.slug).fetch();
       return { article }
-    },
-    head(){
-      return {
-         title: this.article.title,
-          meta: [
-            {
-              hid: "og:title",
-              name: "og:title",
-              content: this.article.title,
-            },
-            {
-              hid: "og:description",
-              name: "og:description",
-              content: this.article.description,
-            },
-            {
-              hid: "og:image",
-              name: "og:image",
-              content: this.article.image.src,
-            },
-            {
-              hid: "og:keywords",
-              name: "og:keywords",
-              content: this.article.head.meta.keywords.content,
-            },
-            {
-              hid: "og:robots",
-              name: "og:robots",
-              content: this.article.head.meta.robots.content,
-            },
-            {
-              hid: "og:author",
-              name: "og:author",
-              content: this.article.head.meta.author.content,
-            },
-            {
-              hid: "og:copyright",
-              name: "og:copyright",
-              content: this.article.head.meta.copyright.content,
-            },
-          ]
-      }
     },
   }
 </script>

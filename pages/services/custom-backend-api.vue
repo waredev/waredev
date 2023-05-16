@@ -77,6 +77,20 @@
 </template>
 <script>
 export default {
-  name: 'Custom Backend/API'
+  name: 'CustomBackendAPIPage',
+  head(){
+    return {
+      title: 'Waredev - Custom Backend/API Service',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'title', name: 'og:title', content: 'Waredev - Custom Backend/API Service' },
+        { hid: 'description', name: 'og:description', content: 'Tailored backend and APIs for your unique needs. Powering your digital vision' },
+        { hid: 'image', name: 'og:image', content: '/assets/images/custom-backend.webp' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { hid: 'keywords', name: 'keywords', content: 'waredev, waredev custom backend api, services, waredev digital solution, waredev.co.id' }
+      ]
+    }
+  },
 }
 </script>

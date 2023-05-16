@@ -18,7 +18,21 @@
 </template>
 <script>
 export default {
-  name: 'Blog Page',
+  name: 'BlogPage',
+  head(){
+    return {
+      title: 'Waredev - Our Blog',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'title', name: 'og:title', content: 'Waredev - Our Blog' },
+        { hid: 'description', name: 'og:description', content: 'Waredev - Our Blog' },
+        { hid: 'image', name: 'og:image', content: '/assets/images/img-hero.webp' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { hid: 'keywords', name: 'keywords', content: 'waredev, waredev website development, services, waredev digital solution, waredev.co.id' }
+      ]
+    }
+  },
   data(){
     return {
       articles: []

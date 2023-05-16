@@ -24,6 +24,20 @@ import FormModal from '../components/FormModal.vue'
 export default {
   components: { FormModal },
   name: 'IndexPage',
+  head(){
+    return {
+      title: 'Waredev Digital Solution | Custom Software Development',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'title', name: 'og:title', content: 'Waredev Digital Solution | Custom Software Development' },
+        { hid: 'description', name: 'og:description', content: 'Unlock your business`s full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.' },
+        { hid: 'image', name: 'og:image', content: '/assets/images/img-hero.webp' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { hid: 'keywords', name: 'keywords', content: 'waredev, waredev digital solution, waredev.co.id, waredev custom software development, custom software development, CV. Waredev Digital Solution' }
+      ]
+    }
+  },
   data() {
     return {
       showModal: false,

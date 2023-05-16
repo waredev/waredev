@@ -18,7 +18,7 @@ head:
     author:
       content: 'Andi Firwansyah'
     copyright:
-      content: '© 2023 Waredev Digital Solution'
+      content: '© 2023 CV.Waredev Digital Solution'
 ---
 
 Dalam era digital saat ini, mobile app menjadi salah satu alat yang sangat berguna dalam membangun dan memperluas bisnis digital. Mobile app memberikan kemudahan akses bagi pelanggan dan memungkinkan perusahaan untuk lebih dekat dengan pelanggan mereka. Berikut adalah beberapa manfaat mobile app untuk bisnis digital:

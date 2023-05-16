@@ -47,6 +47,20 @@
 </template>
 <script>
 export default {
-  name: 'UI/UX Design'
+  name: 'UIUXDesignPage',
+  head(){
+    return {
+      title: 'Waredev - UI/UX Design Service',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'title', name: 'og:title', content: 'Waredev - UI/UX Design Service' },
+        { hid: 'description', name: 'og:description', content: 'Our experts apply proven approaches to design, prototyping, product validation and offer UI design services to create applications that users enjoy.' },
+        { hid: 'image', name: 'og:image', content: '/assets/images/ui-ux-design-im.webp' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { hid: 'keywords', name: 'keywords', content: 'waredev, waredev ui/ux design, services, waredev digital solution, waredev.co.id' }
+      ]
+    }
+  },
 }
 </script>

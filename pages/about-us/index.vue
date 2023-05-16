@@ -41,5 +41,19 @@
 <script>
 export default {
   name: "AboutUsPage",
+  head(){
+    return {
+      title: 'Waredev - About Us',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'title', name: 'og:title', content: 'Waredev - About Us' },
+        { hid: 'description', name: 'og:description', content: 'With a proven process and commitment to quality code, we build stable, scalable web applications your customer will love.' },
+        { hid: 'image', name: 'og:image', content: '/assets/images/img-hero.webp' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { hid: 'keywords', name: 'keywords', content: 'waredev, waredev about us, services, waredev digital solution, waredev.co.id' }
+      ]
+    }
+  },
 };
 </script>

@@ -12,6 +12,20 @@
 </template>
 <script>
 export default {
-  name: 'Portfolio Page'
+  name: 'PortfolioPage',
+  head(){
+    return {
+      title: 'Waredev - Our Portfolio',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'title', name: 'og:title', content: 'Waredev - Our Portfolio' },
+        { hid: 'description', name: 'og:description', content: 'Waredev - Our Portfolio' },
+        { hid: 'image', name: 'og:image', content: '/assets/images/img-hero.webp' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { hid: 'keywords', name: 'keywords', content: 'waredev, waredev website development, services, waredev digital solution, waredev.co.id' }
+      ]
+    }
+  },
 }
 </script>

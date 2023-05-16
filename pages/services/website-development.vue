@@ -75,6 +75,20 @@
 </template>
 <script>
 export default {
-  name: 'Website Development'
+  name: 'WebsiteDevelopmentPage',
+  head(){
+    return {
+      title: 'Waredev - Website Development Service',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'title', name: 'og:title', content: 'Waredev - Website Development Service' },
+        { hid: 'description', name: 'og:description', content: 'We offer complete web development areas, from Websites, Web Apps & Web Services (API)' },
+        { hid: 'image', name: 'og:image', content: '/assets/images/2759B.webp' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { hid: 'keywords', name: 'keywords', content: 'waredev, waredev website development, services, waredev digital solution, waredev.co.id' }
+      ]
+    }
+  },
 }
 </script>
