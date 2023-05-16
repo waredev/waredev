@@ -69,10 +69,10 @@
       </div>
     </div>
     <div class="bg-cooperation bg-no-repeat bg-cover w-full bg-top rounded-xl mt-24">
-      <div class="w-full h-full bg-primary bg-opacity-50 py-14 rounded-xl flex flex-col justify-center px-24">
-        <div class="font-nunito text-4xl text-white font-bold">Work Together With Us.</div>
-        <div class="font-nunito text-xl text-white mt-1">Optimize Your Digital Business.</div>
-        <button class="bg-white font-nunito text-word mt-3 font-bold px-5 py-2 w-44 rounded-md">Contact Us Now</button>
+      <div class="w-full h-full bg-primary bg-opacity-50 lg:py-14 py-10 rounded-xl flex flex-col justify-center lg:px-24 px-5">
+        <div class="font-nunito text-4xl text-white font-bold lg:text-left text-center">Work Together With Us.</div>
+        <div class="font-nunito text-xl text-white mt-1 lg:text-left text-center">Optimize Your Digital Business.</div>
+        <button class="bg-white font-nunito text-word mt-3 font-bold px-5 py-2 w-44 rounded-md lg:mx-0 mx-auto">Contact Us Now</button>
       </div>
     </div>
   </div>
