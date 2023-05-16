@@ -5,7 +5,7 @@
         <div class="text-md text-light mt-2">Internet of Things (IoT) services help elaborate your idea of IoT adoption and set up secure <br> technology infrastructure for advanced data tasks.</div>
       </div>
       <div class="grid lg:grid-cols-2 gap-5 mt-20">
-        <nuxt-img src="/19198365.webp" class="w-[44rem] object-contain" placeholder />
+        <nuxt-img src="/19198365.webp" class="w-[44rem] object-contain" />
         <div class="font-nunito lg:pr-20 mt-14">
           <div class="font-bold text-word text-4xl lg:text-left text-center">What we offer?</div>
           <div class="mt-5 text-[#888888] lg:text-left text-center">In an increasingly connected era, the Internet of Things (IoT) has become an increasingly important and much-needed technology in modern businesses. We offer IoT development services that can help your business connect with connected devices and optimize the use of data in your business.</div>
