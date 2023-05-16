@@ -5,7 +5,7 @@
       <div class="text-md text-light mt-2">Our experts apply proven approaches to design, prototyping, product validation and <br> offer UI design services to create applications that users enjoy.</div>
     </div>
     <div class="grid lg:grid-cols-2 gap-5 mt-20">
-      <img src="~assets/images/ui-ux-design-im.webp" class="w-[44rem] object-contain">
+      <nuxt-img src="/ui-ux-design-im.webp" class="w-[44rem] object-contain" placeholder />
       <div class="font-nunito lg:pr-20 mt-14">
         <div class="font-bold text-word text-4xl lg:text-left text-center">What we offer?</div>
         <div class="mt-5 text-[#888888] lg:text-left text-center">With the growing competition in the digital world, having a visually appealing and user-friendly interface is crucial for the success of any business. Our UI/UX design services offer a creative and effective solution to enhance your website or application's user experience.</div>

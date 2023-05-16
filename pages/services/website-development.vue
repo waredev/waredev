@@ -5,7 +5,7 @@
       <div class="text-md text-light mt-2">We offer complete web development areas, from Websites, <br> Web Apps & Web Services (API)</div>
     </div>
     <div class="grid lg:grid-cols-2 gap-5 mt-20">
-      <img src="~assets/images/2759B.webp" class="w-[44rem] object-contain">
+      <nuxt-img src="/2759B.webp" class="w-[44rem] object-contain" placeholder />
       <div class="font-nunito lg:pr-20 mt-14">
         <div class="font-bold text-word text-4xl lg:text-left text-center">What we offer?</div>
         <div class="mt-5 text-[#888888] lg:text-left text-center">Looking to strengthen your online presence? Or build an impressive website for your visitors? Don't worry, we are here to help. Our website development team has experience in developing websites for various types of businesses and organizations.</div>

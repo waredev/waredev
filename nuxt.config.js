@@ -46,6 +46,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxt/image'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -65,6 +66,9 @@ export default {
     'nuxt-seo-kit'
   ],
 
+  image: {
+    dir: 'assets/images',
+  },
   runtimeConfig: {
     public: {
       siteUrl: 'https://waredev.co.id',

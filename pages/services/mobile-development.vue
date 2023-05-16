@@ -5,7 +5,7 @@
       <div class="text-md text-light mt-2">With proven process and our commitment to quality, we build <br> stable and optimized Android & iOS App</div>
     </div>
     <div class="grid lg:grid-cols-2 gap-5 mt-20">
-      <img src="~assets/images/mobile-app-development-isometric.webp" class="w-[44rem] object-contain">
+      <nuxt-img src="/mobile-app-development-isometric.webp" class="w-[44rem] object-contain" placeholder />
       <div class="font-nunito lg:pr-20 mt-14">
         <div class="font-bold text-word text-4xl lg:text-left text-center">What we offer?</div>
         <div class="mt-5 text-[#888888] lg:text-left text-center">In today's digital era, the use of mobile applications has become an increasingly important requirement for businesses. Mobile applications can help expand your business reach, increase customer loyalty, and provide a better user experience.</div>
