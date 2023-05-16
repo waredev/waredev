@@ -11,13 +11,13 @@ image:
   height: 300
 head:
   meta:
-    - name: 'keywords'
+    keywords:
       content: 'mobile app, bisnis digital, engagement pelanggan, branding, penjualan, kepuasan pelanggan, efisiensi bisnis'
-    - name: 'robots'
+    robots: 
       content: 'index, follow'
-    - name: 'author'
+    author:
       content: 'Andi Firwansyah'
-    - name: 'copyright'
+    copyright:
       content: '© 2023 Waredev Digital Solution'
 ---
 
