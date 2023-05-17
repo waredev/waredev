@@ -216,6 +216,10 @@
   }
 </script>
 <style scoped>
+.nuxt-content h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
 .nuxt-content h2 {
   font-weight: bold;
   font-size: 28px;
@@ -227,12 +231,20 @@
 .nuxt-content p {
   margin-bottom: 20px;
 }
-.icon.icon-link {
+/* .icon.icon-link {
   background-image: url('~assets/images/u_link.svg');
   display: inline-block;
   width: 20px;
   height: 20px;
   background-size: 20px 20px;
   margin-right: 5px;
+} */
+.nuxt-content ol li {
+  list-style-type: decimal;
+  margin-bottom: 20px;
+}
+.nuxt-content ul li {
+  list-style-type:disc;
+  margin-bottom: 20px;
 }
 </style>
