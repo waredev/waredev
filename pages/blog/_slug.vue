@@ -1,6 +1,6 @@
 <template>
 
-  <section class="pt-32 font-nunito">
+  <section class="pt-32 font-nunito" ref="sectionBox">
     <div v-if="article" class="mb-24 xl:px-80 px-10">
       <div class="font-extrabold text-3xl font-word">{{article.title}}</div>
       <div class="font-bold text-light mt-1.5 uppercase">{{article.date}}</div>
@@ -15,27 +15,32 @@
         <div class="lg:mt-0 mt-5">
           <div class="font-bold text-light uppercase lg:text-right text-left">Bagikan Artikel Ini</div>
           <div class="flex items-center space-x-5 mt-2">
-            <nuxt-link to="/">
-               <img src="~assets/images/5282541_fb_social.svg" class="w-7 h-7 fill-orange">
-            </nuxt-link>
-            <nuxt-link to="/">
-              <img src="~assets/images/5282542_linkedin_social.svg" class="w-7 h-7 fill-orange">
-            </nuxt-link>
-            <nuxt-link to="/">
-              <img src="~assets/images/5282551_tweet.svg" class="w-7 h-7 fill-orange">
-            </nuxt-link>
-            <nuxt-link to="/">
-              <img src="~assets/images/5282549_whatsapp.svg" class="w-7 h-7 fill-orange">
-            </nuxt-link>
+            <a :href="socialLink.facebook + encodeURIComponent(articleUrl)" target="_blank">
+             <img src="~assets/images/5282541_fb_social.svg" class="w-6 h-6">
+            </a>
+            <a :href="socialLink.linkedin + encodeURIComponent(articleUrl)" target="_blank">
+              <img src="~assets/images/5282542_linkedin_social.svg" class="w-6 h-6">
+            </a>
+            <a :href="socialLink.twitter + encodeURIComponent(articleUrl)" target="_blank">
+              <img src="~assets/images/5282551_tweet.svg" class="w-6 h-6">
+            </a>
+            <a :href="socialLink.whatsapp + encodeURIComponent(articleUrl)" target="_blank">
+              <img src="~assets/images/5282549_whatsapp.svg" class="w-6 h-6">
+            </a>
             <div class="h-4 w-0.5 bg-[#cacdd5] rounded-full"></div>
-            <nuxt-link to="/">
-              <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6dcfaef2b5a6fed096_u_link-h.svg" class="w-7 h-7">
-            </nuxt-link>
+            <div class="relative">
+              <button @click="handleShowTooltip('#tooltip1')" class="mt-1">
+                <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6dcfaef2b5a6fed096_u_link-h.svg" class="w-6 h-6">
+              </button>
+              <div v-if="showTooltip === '#tooltip1'" class="bg-light transition-all duration-200 top-10 text-white font-nunito font-semibold py-2 px-5 w-32 rounded-lg absolute right-0">
+                Link Copied
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <img :src="article.image.src" :alt="article.image.alt" class="w-3/4 mx-auto object-contain mt-10">
-      <div class="mt-10">
+      <div class="mt-10" id="content-box" ref="contentBox">
         <nuxt-content :document="article" class="font-nunito text-word nuxt-contentx" />
       </div>
       <div class="flex lg:flex-row flex-col items-start justify-between mt-24">
@@ -49,12 +54,54 @@
         <div class="lg:mt-0 mt-5">
           <div class="font-bold text-light uppercase lg:text-right text-left">Bagikan Artikel Ini</div>
           <div class="flex items-center space-x-5 mt-2">
-            <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6de7b37993cd5b90df_u_facebook.svg" class="w-7 h-7">
-            <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6ec38dd13e4ec0b978_u_linkedin.svg" class="w-7 h-7">
-            <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6db520dfca935bc578_u_twitter.svg" class="w-7 h-7">
-            <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6d93d67da1c0f5ac17_u_whatsapp-alt.svg" class="w-7 h-7">
+            <a :href="socialLink.facebook + encodeURIComponent(articleUrl)" target="_blank">
+              <img src="~assets/images/5282541_fb_social.svg" class="w-6 h-6">
+            </a>
+            <a :href="socialLink.linkedin + encodeURIComponent(articleUrl)" target="_blank">
+              <img src="~assets/images/5282542_linkedin_social.svg" class="w-6 h-6">
+            </a>
+            <a :href="socialLink.twitter + encodeURIComponent(articleUrl)" target="_blank">
+              <img src="~assets/images/5282551_tweet.svg" class="w-6 h-6">
+            </a>
+            <a :href="socialLink.whatsapp + encodeURIComponent(articleUrl)" target="_blank">
+              <img src="~assets/images/5282549_whatsapp.svg" class="w-6 h-6">
+            </a>
             <div class="h-4 w-0.5 bg-[#cacdd5] rounded-full"></div>
-            <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6dcfaef2b5a6fed096_u_link-h.svg" class="w-7 h-7">
+            <div class="relative">
+              <button @click="handleShowTooltip('#tooltip2')" data-tooltip-target="tooltip-default" type="button" class="mt-1">
+                <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6dcfaef2b5a6fed096_u_link-h.svg" class="w-6 h-6">
+              </button>
+              <div v-if="showTooltip === '#tooltip2'" class="bg-light transition-all duration-200 top-10 text-white font-nunito font-semibold py-2 px-5 w-32 rounded-lg absolute right-0">
+                Link Copied
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div v-if="scrollPosition > 300 && scrollPosition < minHeight" class="lg:w-56 w-3/4 lg:mx-0 lg:inset-x-auto mx-auto inset-x-0 transition-all lg:px-0 lg:py-0 px-5 py-5 duration-300 fixed lg:right-0 lg:bg-transparent bg-white lg:shadow-none custom-shadow rounded-xl lg:bottom-52 bottom-10">
+        <div class="font-nunito font-bold text-word lg:text-center text-left lg:mb-3 mb-1.5">BAGIKAN</div>
+        <div class="flex lg:flex-col flex-row items-center lg:space-y-5 lg:space-x-0 space-x-5 space-y-0">
+          <a :href="socialLink.facebook + encodeURIComponent(articleUrl)" target="_blank">
+             <img src="~assets/images/5282541_fb_social.svg" class="w-6 h-6">
+          </a>
+          <a :href="socialLink.linkedin + encodeURIComponent(articleUrl)" target="_blank">
+            <img src="~assets/images/5282542_linkedin_social.svg" class="w-6 h-6">
+          </a>
+          <a :href="socialLink.twitter + encodeURIComponent(articleUrl)" target="_blank">
+            <img src="~assets/images/5282551_tweet.svg" class="w-6 h-6">
+          </a>
+          <a :href="socialLink.whatsapp + encodeURIComponent(articleUrl)" target="_blank">
+            <img src="~assets/images/5282549_whatsapp.svg" class="w-6 h-6">
+          </a>
+          <div class="h-4 w-0.5 bg-[#cacdd5] rounded-full"></div>
+          <div class="flex flex-col items-center justify-center">
+            <button @click="handleShowTooltip('#tooltip3')" class="w-12 h-12 cursor-pointer rounded-full border border-gray flex items-center justify-center">
+              <img src="https://assets-global.website-files.com/5d8a2887296e9177accb65bc/636b5c6dcfaef2b5a6fed096_u_link-h.svg" class="w-6 h-6">
+            </button>
+            <span class="font-nunito text-xs text-word text-center mt-2 uppercase">Copy Link</span>
+            <div v-if="showTooltip === '#tooltip3'" class="bg-light transition-all duration-200 lg:bottom-7 bottom-24 left-48 lg:-left-12 text-white font-nunito font-semibold py-2 px-5 w-32 rounded-lg absolute right-0">
+              Link Copied
+            </div>
           </div>
         </div>
       </div>
@@ -63,6 +110,21 @@
 </template>
 <script>
   export default {
+    data(){
+      return {
+        scrollPosition: 0,
+        minHeight: 0,
+        maxHeight: 0,
+        showTooltip: null,
+        articleUrl: '',
+        socialLink: {
+          facebook: 'https://www.facebook.com/sharer/sharer.php?u=',
+          linkedin: 'https://www.linkedin.com/shareArticle?mini=true&title=&url=',
+          twitter: 'https://twitter.com/intent/tweet?text=&url=',
+          whatsapp: 'https://web.whatsapp.com/send?text=',
+        }
+      }
+    },
     head(){
       return {
         title: this.article.title,
@@ -116,21 +178,44 @@
       const article = await $content('articles', params.slug).fetch();
       return { article }
     },
+    mounted () {
+      this.matchHeight()
+      this.articleUrl = window.location.href
+    },
+
+    methods: {
+      handleScroll() {
+        this.scrollPosition = window.scrollY;
+      },
+      matchHeight () {
+        let heightOfScreen = this.$refs.sectionBox.clientHeight;
+        let heightOfContent = this.$refs.contentBox.clientHeight;
+
+        this.minHeight = heightOfContent + window.innerHeight - 300;
+        this.maxHeight = heightOfScreen
+      },
+      handleShowTooltip(id){
+        this.showTooltip = id;
+        navigator.clipboard.writeText(this.articleUrl);
+        setTimeout(() => {
+          this.showTooltip = null
+        },2000)
+      }
+    },
+    created() {
+      if (process.client) {
+        window.addEventListener("scroll", this.handleScroll);
+      }
+    },
+    destroyed() {
+      if (process.client) {
+        window.removeEventListener("scroll", this.handleScroll);
+      }
+    },
+
   }
 </script>
 <style scoped>
-/* .nuxt-contentx h1 {
-  font-weight: bold;
-  font-size: 2.188rem;
-}
-.nuxt-contentx h2 {
-  font-weight: bold;
-  font-size: 1.75rem;
-}
-.nuxt-contentx h3 {
-  font-weight: bold;
-  font-size: 1.5rem;
-} */
 .nuxt-content h2 {
   font-weight: bold;
   font-size: 28px;
