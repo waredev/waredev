@@ -41,7 +41,7 @@ export default {
   async fetch(){
     const data = await this.$content('articles').fetch();
     this.articles = data.sort((a, b) => {
-      return new Date(b.createdAt) - new Date(a.createdAt);
+      return new Date(b.gitCreatedAt) - new Date(a.gitCreatedAt);
     });
   }
 }
