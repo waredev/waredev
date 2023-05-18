@@ -9,7 +9,7 @@
               <img :src="article.image.src" :alt="article.image.alt" class="group-hover:scale-110 transition-all duration-100 h-full scale-100 mx-auto object-contain"/>
             </div>
             <div class="font-bold text-md text-word mt-5">{{article.title}}</div>
-            <div class="uppercase font-bold text-light mt-2">{{article.date}}</div>
+            <div class="uppercase font-bold text-light mt-2">{{$dayjs(article.createdAt).format('DD, MMM YYYY')}}</div>
           </nuxt-link>
         </div>
       </div>
@@ -39,9 +39,10 @@ export default {
     }
   },
   async fetch(){
-    this.articles = await this.$content('articles').fetch();
-    // const data = await this.$content('articles').fetch();
-    // console.log(data[0]);
+    const data = await this.$content('articles').fetch();
+    this.articles = data.sort((a, b) => {
+      return new Date(b.createdAt) - new Date(a.createdAt);
+    });
   }
 }
 </script>

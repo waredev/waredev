@@ -11,23 +11,21 @@
       </div>
       <div class="grid lg:grid-cols-3 gap-5 mt-10">
         <!--start here-->
-        <div v-for="article in articles" :key="article.id" class="lg:p-5 w-full">
-          <div class="h-full custom-shadow rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-36 w-full object-cover object-center" :src="article.image" alt="blog cover" />
-            <div class="p-4">
-              <h2 class="text-xs title-font font-bold text-green-400 mb-1 uppercase ">Web development</h2>
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">This is a blog template</h1>
-              <div class="flex items-center flex-wrap ">
-                <a href="/" class="text-green-800  md:mb-2 lg:mb-0">
-                  <p class="inline-flex items-center">Read More
-                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
-                      stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M5 12h14"></path>
-                      <path d="M12 5l7 7-7 7"></path>
-                    </svg>
-                  </p>
-                </a>
-              </div>
+        <div v-for="article in articles" :key="article.slug" class="lg:p-5 w-full">
+          <div class="h-72 custom-shadow rounded-lg overflow-hidden">
+            <img class="lg:h-32 h-32 w-full object-cover object-center" :src="article.image.src" :alt="article.image.alt" />
+            <div class="py-3 px-4 h-full relative">
+              <div class="font-bold text-md">{{article.title}}</div>
+              <nuxt-link :to="`blog/${article.slug}`">
+                <div class="absolute bottom-36 flex items-center">
+                  <div class="hover:text-word">Read More</div>
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </div>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -39,35 +37,38 @@
 
 <script>
 export default {
-  data() {
-    return {
-      articles: [
-        {
-          id: 1,
-          title: "Te nulla oportere reprimique his dolorum",
-          image: "https://source.unsplash.com/200x200/?fashion?1",
-          author: "waredev",
-          date: "June 1, 2020",
-          url: "#"
-        },
-        {
-          id: 2,
-          title: "Te nulla oportere reprimique his dolorum",
-          image: "https://source.unsplash.com/200x200/?fashion?2",
-          author: "waredev",
-          date: "June 1, 2020",
-          url: "#"
-        },
-        {
-          id: 3,
-          title: "Te nulla oportere reprimique his dolorum",
-          image: "https://source.unsplash.com/200x200/?fashion?3",
-          author: "waredev",
-          date: "June 1, 2020",
-          url: "#"
-        },
-      ]
-    };
-  }
+  props: [
+    'articles'
+  ]
+  // data() {
+  //   return {
+  //     articles: [
+  //       {
+  //         id: 1,
+  //         title: "Te nulla oportere reprimique his dolorum",
+  //         image: "https://source.unsplash.com/200x200/?fashion?1",
+  //         author: "waredev",
+  //         date: "June 1, 2020",
+  //         url: "#"
+  //       },
+  //       {
+  //         id: 2,
+  //         title: "Te nulla oportere reprimique his dolorum",
+  //         image: "https://source.unsplash.com/200x200/?fashion?2",
+  //         author: "waredev",
+  //         date: "June 1, 2020",
+  //         url: "#"
+  //       },
+  //       {
+  //         id: 3,
+  //         title: "Te nulla oportere reprimique his dolorum",
+  //         image: "https://source.unsplash.com/200x200/?fashion?3",
+  //         author: "waredev",
+  //         date: "June 1, 2020",
+  //         url: "#"
+  //       },
+  //     ]
+  //   };
+  // }
 };
 </script>

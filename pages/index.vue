@@ -4,7 +4,7 @@
     <div class="bg-wave-group h-96 bg-contain bg-no-repeat -mt-20 z-10 relative lg:flex hidden" />
     <services />
     <visions />
-    <articles />
+    <articles :articles="articles" />
     <div class="lg:absolute z-20 lg:-mt-[4rem] lg:mb-0 mb-10 lg:px-20 px-10 font-nunito">
       <div class="bg-[#6d5b98] lg:h-44 h-auto lg:rounded-[2.5rem] rounded-xl flex lg:flex-row flex-col lg:py-0 py-10 lg:text-left text-center items-center px-14">
         <div>
@@ -41,6 +41,7 @@ export default {
   data() {
     return {
       showModal: false,
+      articles: []
     }
   },
   mounted(){
@@ -60,6 +61,11 @@ export default {
       localStorage.setItem('isModalOpen', false);
       this.showModal = false;
     }
+  },
+  async fetch(){
+    this.articles = await this.$content('articles').limit(3).sortBy('date').fetch();
+    const dasata = await this.$content('articles').limit(3).sortBy('createdAt').fetch();
+    console.log(dasata)
   }
 }
 </script>

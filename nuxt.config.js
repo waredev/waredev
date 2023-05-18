@@ -51,7 +51,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/sitemap',
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/dayjs'
   ],
   content: {
     liveEdit: false
@@ -80,6 +81,16 @@ export default {
       siteDescription: 'Empowering Your Business with Innovative Software Solutions. Unlock your business`s full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.',
       language: 'en', // prefer more explicit language codes like `en-AU` over `en`
     }
+  },
+
+  dayjs: {
+    locales: ['en', 'id'],
+    defaultLocale: 'id',
+    defaultTimeZone: 'Asia/Jakarta',
+    plugins: [
+      'utc', // import 'dayjs/plugin/utc'
+      'timezone' // import 'dayjs/plugin/timezone'
+    ] // Your Day.js plugin
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
