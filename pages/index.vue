@@ -64,8 +64,6 @@ export default {
   },
   async fetch(){
     this.articles = await this.$content('articles').limit(3).sortBy('date').fetch();
-    const dasata = await this.$content('articles').limit(3).sortBy('createdAt').fetch();
-    console.log(dasata)
   }
 }
 </script>

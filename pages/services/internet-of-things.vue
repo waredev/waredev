@@ -75,7 +75,7 @@
         <div class="w-full h-full bg-primary bg-opacity-50 lg:py-14 py-10 rounded-xl flex flex-col justify-center lg:px-24 px-5">
           <div class="font-nunito text-4xl text-white font-bold lg:text-left text-center">Center Your IoT Solution around Explicit Value.</div>
           <div class="font-nunito text-xl text-white mt-1 lg:text-left text-center">At ScienceSoft, we will help you collect and properly analyze the data from physical objects to make transformative improvements to your business processes.</div>
-          <button class="bg-white font-nunito text-word mt-3 font-bold px-5 py-2 w-44 rounded-md lg:mx-0 mx-auto">Request iOT Services</button>
+          <button class="bg-white font-nunito text-word mt-3 font-bold px-5 py-2 w-52 rounded-md lg:mx-0 mx-auto">Request iOT Services</button>
         </div>
       </div>
   </section>
