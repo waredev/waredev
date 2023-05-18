@@ -3,7 +3,7 @@
   <section class="pt-32 font-nunito" ref="sectionBox">
     <div v-if="article" class="mb-24 xl:px-80 px-10">
       <div class="font-extrabold text-3xl font-word">{{article.title}}</div>
-      <div class="font-bold text-light mt-1.5 uppercase">{{article.date}}</div>
+      <div class="font-bold text-light mt-1.5 uppercase">{{$dayjs(article.gitCreatedAt).format('DD, MMM YYYY')}}</div>
       <div class="flex lg:flex-row flex-col items-start justify-between mt-10">
         <div>
           <div class="font-bold text-light uppercase">Penulis</div>

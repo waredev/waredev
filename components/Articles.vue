@@ -16,7 +16,7 @@
             <img class="lg:h-32 h-32 w-full object-cover object-center" :src="article.image.src" :alt="article.image.alt" />
             <div class="py-3 px-4 h-full relative">
               <div class="font-bold text-md">{{article.title}}</div>
-              <nuxt-link :to="`blog/${article.slug}`">
+              <nuxt-link :to="`/blog/${article.slug}`">
                 <div class="absolute bottom-36 flex items-center">
                   <div class="hover:text-word">Read More</div>
                   <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"

@@ -51,8 +51,12 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/sitemap',
+    ['nuxt-content-git', {
+      createdAtName : 'gitCreatedAt',
+      updatedAtName : 'gitUpdatedAt',
+    }],
     '@nuxt/content',
-    '@nuxtjs/dayjs'
+    '@nuxtjs/dayjs',
   ],
   content: {
     liveEdit: false
