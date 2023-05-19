@@ -2,7 +2,7 @@
   <section class="pt-32 xl:px-20 px-10 font-nunito mb-32">
     <div>
       <div v-if="error.statusCode === 404">
-        <nuxt-img src="/404.png" class="w-72 mx-auto object-contain" />
+        <img src="~assets/images/404.png" class="w-72 mx-auto object-contain" />
         <div class="font-nunito text-word text-center">Sorry, the page you are looking for was not found</div>
       </div>
       <div v-else>An error occurred</div>
