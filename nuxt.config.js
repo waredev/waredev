@@ -108,5 +108,8 @@ export default {
       },
     },
   },
+  generate: {
+    fallback: true
+  },
   target: 'static'
 }

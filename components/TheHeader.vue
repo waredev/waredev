@@ -47,9 +47,11 @@
               <span class="absolute -bottom-1 left-0 w-0 h-1 bg-primary rounded-full transition-all group-hover:w-full"></span>
             </div>
           </nuxt-link>
-          <button class="bg-primary px-5 py-1.5 rounded-md text-white font-semibold border-[2px] border-primary hover:bg-transparent hover:text-primary duration-150">
-            Let's Talk
-          </button>
+          <nuxt-link to="/contact">
+            <button class="bg-primary px-5 py-1.5 rounded-md text-white font-semibold border-[2px] border-primary hover:bg-transparent hover:text-primary duration-150">
+              Let's Talk
+            </button>
+          </nuxt-link>
         </div>
         <button @click="showMenu = !showMenu" class="xl:hidden flex bg-primary bg-opacity-10 w-12 h-12 items-center justify-center rounded-md">
 
@@ -66,9 +68,6 @@
     </div>
     <div :class="showMenu ? 'w-screen h-screen bg-white px-8 fixed z-20 transition-all' : 'hidden'">
       <div class="font-nunito font-bold mt-32">
-        <!-- <nuxt-link to="/">
-          <div @click="closeMenu()" class="my-4">Home</div>
-        </nuxt-link> -->
         <div class="my-4 cursor-pointer" @click="showSubMenu = !showSubMenu">
           <div class='font-nunito group-hover:text-primary flex items-center'>
             <div>Services</div>

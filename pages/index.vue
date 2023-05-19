@@ -63,7 +63,7 @@ export default {
     }
   },
   async fetch(){
-    this.articles = await this.$content('articles').limit(3).sortBy('date').fetch();
+    this.articles = await this.$content('articles').limit(3).sortBy('gitCreatedAt', 'desc').fetch();
   }
 }
 </script>
