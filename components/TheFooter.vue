@@ -58,8 +58,11 @@
 							<a rel="noopener noreferrer" href="#">support@waredev.co.id</a>
 						</li>
 						<li>
-							<a rel="noopener noreferrer" href="#">+62 821-9375-8418</a>
+							<a rel="noopener noreferrer" href="https://wa.me/6282193758418?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih.">
+								<p>+62 821-9375-8418</p>
+							</a>
 						</li>
+
 					</ul>
 				</div>
 				<div class="space-y-3 font-nunito ">
