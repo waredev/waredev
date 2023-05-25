@@ -8,9 +8,9 @@
         including companies, institutions, and organizations.
       </div>
     </div>
-    <div class="w-4/5">
+    <div class="lg:w-4/5 w-full">
       <div class="flex flex-auto items-center flex-wrap gap-5">
-        <div @click="activeCategory = category.id" v-for="(category, index) of categories" :key="index" :class="activeCategory === category.id ? 'border-primary' : 'border-gray' " class="cursor-pointer group transition-all duration-300 hover:border-primary border h-10 min-w-min rounded-lg flex items-center px-5 justify-center">
+        <div @click="handleSetCategory(category.id)" v-for="(category, index) of categories" :key="index" :class="activeCategory === category.id ? 'border-primary' : 'border-gray' " class="cursor-pointer group transition-all duration-300 hover:border-primary border h-10 min-w-min rounded-lg flex items-center px-5 justify-center">
           <div :class="activeCategory === category.id ? 'text-primary' : 'text-word' " class="text-[0.875rem] font-semibold group-hover:text-primary transition-all duration-300">{{category.label}}</div>
         </div>
       </div>
@@ -18,8 +18,8 @@
         <div v-for="(item, index) in portfolios" :key="index" class="border border-gray rounded-lg">
           <nuxt-img :src="item.image" class="w-full h-56 object-contain" :alt="item.name" />
           <div class="px-4 py-4">
-            <div class="flex mb-1.5">
-              <div class="bg-primary py-1 px-3 rounded-md text-xs text-white">{{item.category.name}}</div>
+            <div class="flex mb-1.5 space-x-2">
+              <div v-for="(category, idx) in item.category" :key="idx" class="bg-primary py-1 px-3 rounded-md text-xs text-white">{{category.name}}</div>
             </div>
             <div class="font-bold text-word">{{item.name}}</div>
             <div class="text-light text-sm mt-2">{{item.description.length > 50 ? item.description.substring(0, 50) + '...' : item.description}}</div>
@@ -39,14 +39,33 @@ export default {
       activeCategory: 0,
       categories: [
         {id: 0, type: 'all', label: 'All'},
-        {id: 1, type: 'web-development', label: 'Website Application'},
-        {id: 2, type: 'mobile-development', label: 'Mobile Application'},
-        {id: 3, type: 'internet-of-things', label: 'Internet of Things (iOT)'},
-        {id: 4, type: 'ui-ux-design', label: 'UI/UX Design'},
+        {id: 1, type: 'web-app', label: 'Website Application'},
+        {id: 2, type: 'mobile-app', label: 'Mobile Application'},
+        {id: 3, type: 'iot', label: 'Internet of Things (iOT)'},
+        {id: 4, type: 'ui-ux', label: 'UI/UX Design'},
       ]
     }
   },
-  // 'All', 'Web Application', 'Mobile Application', 'Internet of Things', 'UI/UX Design'
+  methods: {
+    handleSetCategory(categoryId){
+      const category = this.categories.find(v => v.id === categoryId);
+      if(category.type === 'all'){
+        this.portfolios = data;
+        this.activeCategory = categoryId;
+        return;
+      }
+      let newData = [];
+      data.forEach((item) => {
+        item.category.forEach(el => {
+          if(el.value === category.type){
+            newData.push(item);
+          }
+        });
+      })
+      this.portfolios = newData;
+      this.activeCategory = categoryId;
+    }
+  },
   head(){
     return {
       title: 'Waredev - Our Portfolio',

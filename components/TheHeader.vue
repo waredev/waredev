@@ -5,7 +5,7 @@
         <nuxt-link to="/">
           <div class="flex items-end">
             <img src="~assets/images/logo.png" class="w-[4.063rem] h-[2.375rem]" />
-            <div class="font-nunito font-extrabold text-[#333333g] text-2xl ml-2">Waredev</div>
+            <div class="font-nunito font-extrabold text-word text-2xl ml-2">Waredev</div>
           </div>
         </nuxt-link>
         <div class="hidden xl:flex items-center space-x-12 font-nunito">
