@@ -57,36 +57,45 @@
           </div>
         </div>
       </div>
-      <div class="font-bold text-word text-xl mt-5">Form</div>
-      <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
-        <div class="w-full mt-5">
-          <div class="text-word">First Name<span class="text-red">*</span></div>
-          <input type="text" class="h-10 border border-gray mt-0.5 focus:outline-none w-full px-3 rounded-md">
+      
+      <form
+        action="https://formspree.io/f/mvonnqlb"
+        method="POST">
+        <div class="font-bold text-word text-xl mt-5">Form</div>
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
+          <input type="hidden" name="selected" v-model="selected">
+          <label class="w-full mt-5">
+            <div for="name" class="text-word">First Name<span class="text-red">*</span></div>
+            <input id="name" name="name" type="text" class="h-10 border border-gray mt-0.5 focus:outline-none w-full px-3 rounded-md">
+          </label>
+          <div class="w-full mt-5">
+            <div for="last_name" class="text-word">Last Name<span class="text-red">*</span></div>
+            <input id="last_name" name="last_name" type="text" class="h-10 border border-gray mt-0.5 focus:outline-none w-full px-3 rounded-md">
+          </div>
         </div>
-        <div class="w-full mt-5">
-          <div class="text-word">Last Name<span class="text-red">*</span></div>
-          <input type="text" class="h-10 border border-gray mt-0.5 focus:outline-none w-full px-3 rounded-md">
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
+          <label class="w-full mt-5">
+            <div for="email" class="text-word">Email<span class="text-red">*</span></div>
+            <input id="email" name="email" type="email" class="h-10 border border-gray mt-0.5 focus:outline-none w-full px-3 rounded-md">
+          </label>
+          <label class="w-full mt-5">
+            <div for="phone" class="text-word">WhatsApp/Phone Number<span class="text-red">*</span></div>
+            <input id="phone" name="phone" type="text" class="h-10 border border-gray mt-0.5 focus:outline-none w-full px-3 rounded-md">
+          </label>
         </div>
-      </div>
-      <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
-        <div class="w-full mt-5">
-          <div class="text-word">Email<span class="text-red">*</span></div>
-          <input type="text" class="h-10 border border-gray mt-0.5 focus:outline-none w-full px-3 rounded-md">
-        </div>
-        <div class="w-full mt-5">
-          <div class="text-word">WhatsApp/Phone Number<span class="text-red">*</span></div>
-          <input type="text" class="h-10 border border-gray mt-0.5 focus:outline-none w-full px-3 rounded-md">
-        </div>
-      </div>
-      <div class="w-full mt-5">
-        <div class="text-word">Organization/Company<span class="text-red">*</span></div>
-        <input type="text" class="h-10 border border-gray mt-0.5 focus:outline-none w-full px-3 rounded-md">
-      </div>
-      <div class="w-full mt-5">
-        <div class="text-word">Organization/Company<span class="text-red">*</span></div>
-        <textarea class="border border-gray mt-0.5 focus:outline-none w-full px-3 py-2 rounded-md" rows="8"></textarea>
-      </div>
-      <div class="mt-5 font-semibold bg-primary h-10 lg:w-32 w-full flex items-center justify-center text-white rounded-md cursor-pointer">Submit</div>
+        <label class="w-full mt-5">
+          <div for="company" class="text-word">Organization/Company<span class="text-red">*</span></div>
+          <input id="company" name="company" type="text" class="h-10 border border-gray mt-0.5 focus:outline-none w-full px-3 rounded-md">
+        </label>
+        <label class="w-full mt-5">
+          <div for="message" class="text-word">Mesage<span class="text-red">*</span></div>
+          <textarea id="message" name="message" class="border border-gray mt-0.5 focus:outline-none w-full px-3 py-2 rounded-md" rows="8"></textarea>
+        </label>
+        <button class="mt-5 font-semibold bg-primary h-10 lg:w-32 w-full flex items-center justify-center text-white rounded-md cursor-pointer" type="submit">
+        Submit
+      </button>
+      </form>
+      <!-- <div class="mt-5 font-semibold bg-primary h-10 lg:w-32 w-full flex items-center justify-center text-white rounded-md cursor-pointer">Submit</div> -->
     </div>
   </section>
 </template>
@@ -96,6 +105,7 @@ export default {
   data(){
     return {
       selected: [],
+     
     }
   },
   methods: {
