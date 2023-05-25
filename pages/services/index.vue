@@ -8,14 +8,14 @@
         Feel free to customize it according to your specific needs and preferences. Let me know if there's anything else I can assist you with!
       </div>
     </div>
-    <WebsiteDevelopment></WebsiteDevelopment>
+    <!-- <WebsiteDevelopment></WebsiteDevelopment>
     <MobileDevelopment></MobileDevelopment>
     <CustomBackendApi></CustomBackendApi>
     <InternetOfThings></InternetOfThings>
-    <Ui></Ui>
+    <Ui></Ui> -->
     </section>
   </template>
-  
+
   <script>
   // Import the website-development component
   import WebsiteDevelopment from './website-development.vue';
@@ -23,7 +23,7 @@
   import CustomBackendApi from './custom-backend-api.vue';
   import InternetOfThings from './internet-of-things.vue';
   import Ui from './ui-ux-design.vue';
-  
+
   export default {
     name: 'Index',
     components: {
@@ -35,4 +35,3 @@
     },
   };
   </script>
-  
