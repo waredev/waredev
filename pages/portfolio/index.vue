@@ -14,14 +14,28 @@
           <div :class="activeCategory === category.id ? 'text-primary' : 'text-word' " class="text-[0.875rem] font-semibold group-hover:text-primary transition-all duration-300">{{category.label}}</div>
         </div>
       </div>
+      <div class="grid lg:grid-cols-3 grid-cols-1 gap-10 mt-10">
+        <div v-for="(item, index) in portfolios" :key="index" class="border border-gray rounded-lg">
+          <nuxt-img :src="item.image" class="w-full h-56 object-contain" :alt="item.name" />
+          <div class="px-4 py-4">
+            <div class="flex mb-1.5">
+              <div class="bg-primary py-1 px-3 rounded-md text-xs text-white">{{item.category.name}}</div>
+            </div>
+            <div class="font-bold text-word">{{item.name}}</div>
+            <div class="text-light text-sm mt-2">{{item.description.length > 50 ? item.description.substring(0, 50) + '...' : item.description}}</div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 <script>
+import data from './data';
 export default {
   name: 'PortfolioPage',
   data(){
     return {
+      portfolios: data,
       activeCategory: 0,
       categories: [
         {id: 0, type: 'all', label: 'All'},
