@@ -1,5 +1,5 @@
 <template>
-	<footer class="px-4 pt-32 divide-y bg-[#6d5b98] font-nunito">
+	<footer class="px-4 pt-32 divide-y bg-[#1a2e44] font-nunito">
 		<div class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 			<div class="lg:w-1/3">
 				<a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">

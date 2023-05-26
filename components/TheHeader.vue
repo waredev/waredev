@@ -9,12 +9,6 @@
           </div>
         </nuxt-link>
         <div class="hidden xl:flex items-center space-x-12 font-nunito">
-          <!-- <nuxt-link to="/">
-            <div class="relative group cursor-pointer">
-              <div class='font-nunito group-hover:text-primary'>Home</div>
-              <span class="absolute -bottom-1 left-0 w-0 h-1 bg-primary rounded-full transition-all group-hover:w-full"></span>
-            </div>
-          </nuxt-link> -->
           <div class="relative group cursor-pointer">
             <div class='font-nunito group-hover:text-primary flex items-center'>
               <div>Services</div>
@@ -87,6 +81,9 @@
         </nuxt-link>
         <nuxt-link to="/blog">
           <div @click="closeMenu()" class="my-4">Blog</div>
+        </nuxt-link>
+        <nuxt-link to="/contact">
+          <div @click="closeMenu()" class="text-center my-4 bg-primary px-5 py-1.5 rounded-md text-white font-semibold border-[2px] border-primary hover:bg-transparent hover:text-primary duration-150">Let's Talk</div>
         </nuxt-link>
       </div>
     </div>
