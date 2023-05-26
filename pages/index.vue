@@ -13,7 +13,7 @@
           <div class="font-bold text-3xl text-white">Let's make something creative</div>
           <div class="text-white mt-1 text-xl lg:pr-24">Reach out to us and we will help you organize the right action for your business needs.</div>
         </div>
-        <a rel="noopener noreferrer" href="https://wa.me/6282193758418?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih." class="bg-white text-word w-72 h-16 cursor-pointer hover:bg-primary hover:text-white duration-150 lg:mt-0 mt-10 flex items-center justify-center font-bold text-2xl rounded-full">Hire Developers</a>
+        <a rel="noopener noreferrer" href="https://wa.me/6282193758418?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih." class="bg-white text-word w-72 h-16 cursor-pointer hover:bg-[#FF914D] hover:text-white duration-150 lg:mt-0 mt-10 flex items-center justify-center font-bold text-2xl rounded-full">Hire Developers</a>
 
         </div>
     </div>

@@ -42,7 +42,7 @@
             </div>
           </nuxt-link>
           <nuxt-link to="/contact">
-            <button class="bg-primary px-5 py-1.5 rounded-md text-white font-semibold border-[2px] border-primary hover:bg-transparent hover:text-primary duration-150">
+            <button class="bg-[#1a2e44] px-5 py-1.5 rounded-md text-white font-semibold border-[2px] border-[#1a2e44] hover:bg-transparent hover:text-[#1a2e44] duration-150">
               Let's Talk
             </button>
           </nuxt-link>
@@ -83,7 +83,7 @@
           <div @click="closeMenu()" class="my-4">Blog</div>
         </nuxt-link>
         <nuxt-link to="/contact">
-          <div @click="closeMenu()" class="text-center my-4 bg-primary px-5 py-1.5 rounded-md text-white font-semibold border-[2px] border-primary hover:bg-transparent hover:text-primary duration-150">Let's Talk</div>
+          <div @click="closeMenu()" class="text-center my-4 bg-[#1a2e44] px-5 py-1.5 rounded-md text-white font-semibold border-[2px] border-[#1a2e44] hover:bg-transparent hover:text-[#1a2e44] duration-150">Let's Talk</div>
         </nuxt-link>
       </div>
     </div>

@@ -11,7 +11,7 @@
           </button> -->
           <!-- <button class="bg-primary h-16 px-5 rounded-lg font-nunito font-semibold text-white text-lg border-[2px] border-primary hover:bg-transparent hover:text-primary duration-150">Explore Our Services</button> -->
           <a href="https://wa.me/6282193758418?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih.">
-            <button class="bg-transparent h-16 px-5 rounded-lg font-nunito font-semibold text-primary text-lg border-[2px] border-primary hover:bg-primary hover:text-white duration-150">
+            <button class="bg-[#1a2e44] h-16 px-5 rounded-lg font-nunito font-semibold text-white text-lg border-[2px] border-[#1a2e44] hover:bg-white hover:text-[#1a2e44] duration-150">
               Schedule a Consultation
             </button>
           </a>
