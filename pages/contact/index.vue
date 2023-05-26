@@ -57,7 +57,7 @@
           </div>
         </div>
       </div>
-      
+
       <form
         action="https://formspree.io/f/mvonnqlb"
         method="POST">
@@ -105,7 +105,7 @@ export default {
   data(){
     return {
       selected: [],
-     
+
     }
   },
   methods: {
@@ -117,6 +117,20 @@ export default {
       }
       this.selected.push(service);
     }
-  }
+  },
+  head(){
+    return {
+      title: 'Waredev - Our Portfolio',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'title', name: 'og:title', content: 'Waredev - Contact' },
+        { hid: 'description', name: 'og:description', content: 'Waredev - Contact' },
+        { hid: 'image', name: 'og:image', content: '/assets/images/img-hero.webp' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { hid: 'keywords', name: 'keywords', content: 'waredev, waredev website development, services, waredev digital solution, waredev.co.id' }
+      ]
+    }
+  },
 }
 </script>
