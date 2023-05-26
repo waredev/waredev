@@ -15,21 +15,21 @@
       <div class="grid lg:grid-cols-3 grid-cols-none grid-rows-3 lg:grid-rows-none py-10">
         <div class="flex flex-col items-center">
           <div class="w-72 mb-5">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" class="w-72 h-80 object-cover rounded-md" />
+              <img src="https://media.licdn.com/dms/image/D5603AQG-12KTZl8Wpg/profile-displayphoto-shrink_800_800/0/1679896657699?e=2147483647&v=beta&t=e_P92LUrN29yKCF-bl44cO7B0EFggYdLgpBJgRtvFdE" class="w-72 h-80 object-cover rounded-md" />
             <div class="text-word font-nunito font-bold text-xl mt-5">Dudi Ali Murtado</div>
             <div class="text-word font-nunito text-sm mt-2">Chief Technology Officer</div>
           </div>
         </div>
         <div class="flex flex-col items-center">
           <div class="w-72 mb-5">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" class="w-72 h-80 object-cover rounded-md" />
+            <img src="https://sepasar.id/assets/public/images/people/110/andi.jpg" class="w-72 h-80 object-cover rounded-md" />
             <div class="text-word font-nunito font-bold text-xl mt-5">Andi Firwansyah</div>
             <div class="text-word font-nunito text-sm mt-2">Chief Executive Officer</div>
           </div>
         </div>
         <div class="flex flex-col items-center">
           <div class="w-72 mb-5">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" class="w-72 h-80 object-cover rounded-md" />
+            <img src="https://sepasar.id/assets/public/images/people/110/pranto.png" class="w-72 h-80 object-cover rounded-md" />
             <div class="text-word font-nunito font-bold text-xl mt-5">Pranto Suwarno</div>
             <div class="text-word font-nunito text-sm mt-2">Chief Marketing Officer</div>
           </div>
