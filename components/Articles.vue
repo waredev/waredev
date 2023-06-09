@@ -11,7 +11,7 @@
       </div>
       <div class="grid lg:grid-cols-3 gap-5 mt-10">
         <!--start here-->
-        <div v-for="article in articles" :key="article.slug" class="lg:p-5 w-full">
+        <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="3000" v-for="article in articles" :key="article.slug" class="lg:p-5 w-full">
           <div class="h-72 custom-shadow rounded-lg overflow-hidden">
             <img class="lg:h-32 h-32 w-full object-cover object-center" :src="article.image.src" :alt="article.image.alt" />
             <div class="py-3 px-4 h-full relative">

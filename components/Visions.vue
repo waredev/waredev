@@ -6,13 +6,13 @@
         <div class="grid lg:grid-cols-3 grid-cols-none gap-4">
           <div class="">
             <div class="flex items-center space-x-3">
-              <div class="w-12 h-12 bg-white flex items-center justify-center rounded-full">
+              <div data-aos="fade-up" data-aos-duration="2000" class="w-12 h-12 bg-white flex items-center justify-center rounded-full">
                 <img src="~/assets/images/asset-icon.png" class="w-10 h-10">
               </div>
-              <div class="font-bold text-white text-xl">Our Expertise</div>
+              <div data-aos="fade-up" data-aos-duration="2000" class="font-bold text-white text-xl">Our Expertise</div>
             </div>
           </div>
-          <div class="col-span-2">
+          <div data-aos="fade-up" data-aos-duration="2000" class="col-span-2">
             <div class="font-bold text-3xl text-white">With great dedication, comes great expertise</div>
             <div class="text-white text-md mt-7">Some of our expertises include: UI/UX Design, UX Research, Responsive Website Design and Development, Microsite Campaign, Content Management System (CMS) Development, eCommerce Platform Development, Custom Web Application Development, as well as Mobile Application Development.</div>
             <div class="w-full h-0.5 bg-white mt-10"></div>
@@ -21,13 +21,13 @@
         <div class="grid lg:grid-cols-3 grid-cols-none gap-4 mt-10">
           <div class="">
             <div class="flex items-center space-x-3">
-              <div class="w-12 h-12 bg-white flex items-center justify-center rounded-full">
+              <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200" class="w-12 h-12 bg-white flex items-center justify-center rounded-full">
                 <img src="~/assets/images/asset-icon.png" class="w-10 h-10">
               </div>
-              <div class="font-bold text-white text-xl">Our Process</div>
+              <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200" class="font-bold text-white text-xl">Our Process</div>
             </div>
           </div>
-          <div class="col-span-2">
+          <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200" class="col-span-2">
             <div class="font-bold text-3xl text-white">We listen to your goals and deliver what you want</div>
             <div class="text-white text-md mt-7">We are proud of our ability to understand our client. We listen to your goals and deliver what you want. With our individualized strategy, we will formulate the right strategy just for you. Not to mention, our conscientious team will make sure to maintain the services to infinity and beyond!</div>
           </div>

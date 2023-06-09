@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen relative bg-light-blue">
     <nuxt-img src="/bg-pattern.webp" class="w-[45.25rem] h-[35.5rem] absolute z-0" />
-    <div class="z-10 relative pt-40 flex items-center lg:px-20 px-10">
+    <div data-aos="fade-up" data-aos-duration="3000"  class="z-10 relative pt-40 flex items-center lg:px-20 px-10">
       <div class="lg:pr-20 pr-0">
         <div class="lg:text-5xl text-4xl font-nunito font-bold text-[#333333] mb-8 leading-tight lg:text-left text-center">Empowering Your Business with Innovative Software Solutions.</div>
         <div class="font-nunito font-regular text-[#888888] lg:text-left text-center">Unlock your business's full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.</div>
