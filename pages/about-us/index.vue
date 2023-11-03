@@ -15,7 +15,7 @@
       <div class="grid lg:grid-cols-3 grid-cols-2 gap-5 py-10">
         <div class="flex flex-col items-center">
           <div class="lg:w-72 w-auto mb-5">
-            <img src="~assets/images/teams/dudi.jpg" class="lg:w-72 lg:h-80 w-full h-48 object-cover rounded-md" />
+            <img src="~assets/images/teams/dudi.jpeg" class="lg:w-72 lg:h-80 w-full h-48 object-cover rounded-md" />
             <div class="text-word font-nunito font-bold text-xl mt-5">Dudi Ali Murtado</div>
             <div class="text-word font-nunito text-sm mt-2">Chief Technology Officer</div>
           </div>
@@ -29,7 +29,7 @@
         </div>
         <div class="flex flex-col items-center">
           <div class="lg:w-72 w-auto mb-5">
-            <img src="~assets/images/teams/pranto.jpg" class="lg:w-72 lg:h-80 w-full h-48 object-cover rounded-md" />
+            <img src="~assets/images/teams/pranto.jpeg" class="lg:w-72 lg:h-80 w-full h-48 object-cover rounded-md" />
             <div class="text-word font-nunito font-bold text-xl mt-5">Pranto Suwarno</div>
             <div class="text-word font-nunito text-sm mt-2">Chief Marketing Officer</div>
           </div>
