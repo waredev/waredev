@@ -13,13 +13,13 @@
         - Head of Team
       </div>
       <div class="grid lg:grid-cols-3 grid-cols-2 gap-5 py-10">
-        <div class="flex flex-col items-center">
+        <!-- <div class="flex flex-col items-center">
           <div class="lg:w-72 w-auto mb-5">
             <img src="~assets/images/teams/dudi.jpeg" class="lg:w-72 lg:h-80 w-full h-48 object-cover rounded-md" />
             <div class="text-word font-nunito font-bold text-xl mt-5">Dudi Ali Murtado</div>
             <div class="text-word font-nunito text-sm mt-2">Chief Technology Officer</div>
           </div>
-        </div>
+        </div> -->
         <div class="flex flex-col items-center">
           <div class="lg:w-72 w-auto mb-5">
             <img src="~assets/images/teams/andi.jpg" class="lg:w-72 lg:h-80 w-full h-48 object-cover rounded-md" />
@@ -36,7 +36,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-light-blue xl:px-20 px-10 py-20">
+    <!-- <div class="bg-light-blue xl:px-20 px-10 py-20">
       <div class="font-bold text-md text-word text-3xl">
         - The Engineer
       </div>
@@ -56,7 +56,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
