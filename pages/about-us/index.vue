@@ -8,7 +8,7 @@
         scalable web applications your customer will love.
       </div>
     </div>
-    <!-- <div class="bg-light-blue xl:px-20 px-10 py-20">
+    <div class="bg-light-blue xl:px-20 px-10 py-20">
       <div class="font-bold text-md text-word text-3xl">
         - Head of Team
       </div>
@@ -35,7 +35,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- <div class="bg-light-blue xl:px-20 px-10 py-20">
       <div class="font-bold text-md text-word text-3xl">
         - The Engineer

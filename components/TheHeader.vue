@@ -29,12 +29,12 @@
               <span class="absolute -bottom-1 left-0 w-0 h-1 bg-primary rounded-full transition-all group-hover:w-full"></span>
             </div>
           </nuxt-link>
-          <!-- <nuxt-link to="/about-us">
+          <nuxt-link to="/about-us">
             <div class="relative group cursor-pointer">
               <div class='font-nunito group-hover:text-primary'>About Us</div>
               <span class="absolute -bottom-1 left-0 w-0 h-1 bg-primary rounded-full transition-all group-hover:w-full"></span>
             </div>
-          </nuxt-link> -->
+          </nuxt-link>
           <nuxt-link to="/blog">
             <div class="relative group cursor-pointer">
               <div class='font-nunito group-hover:text-primary'>Blog</div>
