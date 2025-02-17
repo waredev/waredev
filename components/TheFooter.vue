@@ -1,71 +1,54 @@
 <template>
-	<footer class="px-4 pt-32 divide-y bg-[#1a2e44] font-nunito">
-		<div class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
-			<div class="lg:w-1/3">
-				<a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
-					<div class="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
-            <img src="~assets/images/logo.png" class=" dark:text-gray-900" />
-					</div>
-          <div class="font-nunito font-extrabold text-[#ffffff] text-2xl ml-2 mt-3">Waredev</div>
-				</a>
-        <div class="mr-12 font-nunito text-white mt-4">Unlock your business's full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.</div>
-			</div>
-			<div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4 font-nunito text-[#ffffff]">
-				<div class="space-y-3">
-					<h3 class="tracking-wide uppercase dark:text-gray-50 font-nunito">Services</h3>
-					<ul class="space-y-1 font-nunito">
-						<li>
-							<a rel="noopener noreferrer" href="#">Website Development</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="#">Mobile Development</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="#">Custom Backend/API</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="#">Internet of Things (iOT)</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="#">UI/UX Design</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="#">Support and Maintenance</a>
-						</li>
-					</ul>
-				</div>
-				<div class="space-y-3 font-nunito text-[#ffffff]">
-					<h3 class="tracking-wide uppercase dark:text-gray-50">Company</h3>
-					<ul class="space-y-1">
-						<li>
-							<a rel="noopener noreferrer" href="#">About Us</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="#">Portfolio</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="#">Blog</a>
-						</li>
-						<!-- <li>
-							<a rel="noopener noreferrer" href="#">Term of Service</a>
-						</li> -->
-					</ul>
-				</div>
-				<div class="space-y-3 font-nunito text-[#ffffff]">
-					<h3 class="uppercase dark:text-gray-50">Contact</h3>
-					<ul class="space-y-1">
-						<li>
-							<a rel="noopener noreferrer" href="#">support@waredev.co.id</a>
-						</li>
-						<li>
-							<a rel="noopener noreferrer" href="https://wa.me/6282193758418?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih.">
-								<p>+62 821-9375-8418</p>
-							</a>
-						</li>
+  <footer class="bg-[#1a2e44] w-full text-white font-nunito">
+    <div class="lg:max-w-6xl mx-auto px-6 md:px-12 lg:px-20 pt-32 divide-y">
+      <div class="flex flex-col justify-between py-10 space-y-8 lg:flex-row lg:space-y-0">
+        <div class="lg:w-1/4">
+          <a href="#" class="flex justify-center space-x-3 lg:justify-start">
+            <div class="flex items-center justify-center w-12 h-12 rounded-full">
+              <img src="~assets/images/logo.png" class="dark:text-gray-900" />
+            </div>
+            <div class="font-extrabold text-2xl ml-2 mt-3">Waredev</div>
+          </a>
+          <p class="mt-4 text-sm leading-relaxed">
+            Unlock your business's full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.
+          </p>
+        </div>
 
-					</ul>
-				</div>
-				<div class="space-y-3 font-nunito ">
+        <div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
+          <div class="space-y-3">
+            <h3 class="uppercase font-bold">Services</h3>
+            <ul class="space-y-1">
+              <li><a href="#">Website Development</a></li>
+              <li><a href="#">Mobile Development</a></li>
+              <li><a href="#">Custom Software Development</a></li>
+              <!-- <li><a href="#">Internet of Things (IoT)</a></li>
+              <li><a href="#">UI/UX Design</a></li>
+              <li><a href="#">Support and Maintenance</a></li> -->
+            </ul>
+          </div>
+
+          <div class="space-y-3">
+            <h3 class="uppercase font-bold">Company</h3>
+            <ul class="space-y-1">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="space-y-3">
+            <h3 class="uppercase font-bold">Contact</h3>
+            <ul class="space-y-1">
+              <li><a href="#">support@waredev.co.id</a></li>
+              <li>
+                <a href="https://wa.me/6282193758418?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih.">
+                  <p>+62 821-9375-8418</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="space-y-3 font-nunito ">
 					<div class="uppercase dark:text-gray-50">Social media</div>
 					<div class="flex justify-start space-x-3">
 						<a rel="noopener noreferrer" href="https://www.facebook.com/waredevdigitalsolution" title="Facebook" class="flex items-center p-1">
@@ -83,13 +66,9 @@
 						</a>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="py-6 text-sm text-center text-[#ffffff] dark:text-gray-400">© CV. Waredev Digital Solution. All rights reserved.</div>
-	</footer>
+        </div>
+      </div>
+      <div class="py-6 text-sm text-center">© CV. Waredev Digital Solution. All rights reserved.</div>
+    </div>
+  </footer>
 </template>
-<script>
-export default {
-  name: 'TheFooter'
-}
-</script>

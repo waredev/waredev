@@ -10,8 +10,8 @@
         <img src="~assets/images/3WBHAgicGKZEGKwdGjMxH-transformed.png" class="lg:flex hidden h-full object-cover rounded-l-xl">
         <div class="pt-20 px-10">
           <img src="~assets/images/logo.png" class="w-16 mx-auto">
-          <div class="font-nunito text-2xl font-bold text-word text-center mt-3">Free Consultation</div>
-          <div class="font-nunito text-sm text-word text-center mt-3">Increase the effectiveness of your business through a website with a free consultation with our team</div>
+          <div class="font-nunito text-2xl font-bold text-[#1a2e44] text-center mt-3">Free Consultation</div>
+          <div class="font-nunito text-sm text-[#1a2e44] text-center mt-3">Increase the effectiveness of your business through a website with a free consultation with our team</div>
           <input class="font-nunito bg-gray appearance-none border-2 border-gray rounded-lg w-full py-2.5 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary mt-5" type="text" placeholder="Full Name">
           <input class="font-nunito bg-gray appearance-none border-2 border-gray rounded-lg w-full py-2.5 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-primary mt-5" type="number" placeholder="WhatsApp Number">
           <button class="bg-primary py-3 mt-10 px-5 rounded-lg w-full text-white font-nunito font-bold">Contact Us</button>
