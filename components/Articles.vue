@@ -4,9 +4,9 @@
       <div class="space-y-2 flex flex-col items-center mb-10">
         <div class="text-4xl font-extrabold text-[#1a2e44] lg:text-left text-center">Recommended Reading</div>
         <div class="flex items-center space-x-1">
-          <div class="w-10 h-2 bg-[#0a1060] rounded-full"></div>
-          <div class="w-5 h-2 bg-[rgb(10,16,96)] rounded-full"></div>
-          <div class="w-12 h-2 bg-[#0a1060] rounded-full"></div>
+          <div class="w-10 h-2 bg-[#1a2e44] rounded-full"></div>
+          <div class="w-5 h-2 bg-[#1a2e44] rounded-full"></div>
+          <div class="w-12 h-2 bg-[#1a2e44] rounded-full"></div>
         </div>
       </div>
 

@@ -12,7 +12,7 @@
           Unlock your business's full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.
         </div>
         <div data-aos="fade-right" data-aos-delay="400" data-aos-duration="2000" class="flex lg:flex-row flex-col lg:space-x-5 space-x-0 items-center lg:space-y-0 space-y-3 mt-14">
-          <a href="https://wa.me/6282193758418?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih.">
+          <a href="https://wa.me/6287713763012?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih.">
             <button class="bg-[#1a2e44] h-16 px-5 rounded-lg font-nunito font-semibold text-white text-lg border-[2px] border-[#1a2e44] hover:bg-white hover:text-[#1a2e44] duration-150">
               Schedule a Consultation
             </button>
