@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/services/internet-of-things", {data:[{_img:{"/_ipx/_/19198365.webp":"\u002F_nuxt\u002Fimage\u002F48004e.webp"}}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/services/ui-ux-design", {data:[{_img:{"/_ipx/_/ui-ux-design-im.webp":"\u002F_nuxt\u002Fimage\u002Fe77783.webp"}}],fetch:{},mutations:void 0});

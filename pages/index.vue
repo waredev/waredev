@@ -6,7 +6,7 @@
     <articles :articles="articles" />
     <div class="relative lg:max-w-6xl mx-auto py-14 -mt-5 px-5 md:px-12 lg:px-20 z-20 2xl:mb-2 lg:mb-2 mb-24">
     <div class="absolute inset-0 lg:mt-10 lg:mx-auto lg:px-20 px-5">
-      <div class="bg-gradient-to-r from-[#1a2e44] to-[#2c3e50] lg:h-44 h-auto lg:rounded-2xl flex lg:flex-row flex-col items-center justify-between lg:py-8 py-10 px-10 shadow-lg">
+      <div class="bg-gradient-to-r from-custom-dark-blue to-custom-dark-gray lg:h-44 h-auto lg:rounded-2xl flex lg:flex-row flex-col items-center justify-between lg:py-8 py-10 px-10 shadow-lg">
         <div class="text-center lg:text-left">
           <h3 class="font-bold text-2xl text-white">Let's make something creative</h3>
           <p class="text-white mt-2 text-sm">

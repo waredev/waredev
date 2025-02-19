@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/services/website-development", {data:[{_img:{"/_ipx/_/Static%20website-cuate.svg":"\u002F_nuxt\u002Fimage\u002F8da623.svg"}}],fetch:{},mutations:void 0});

@@ -41,7 +41,9 @@ module.exports = {
       black: '#1a2e44',
       gray: '#edf2f7',
       orange: '#FF914D',
-      red: '#d40000'
+      red: '#d40000',
+      'custom-dark-blue': '#1a2e44',
+      'custom-dark-gray': '#2c3e50',
     }
   },
   plugins: [],
