@@ -9,6 +9,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backdropBlur: {
+        none: "0",
+        sm: "4px",
+        md: "8px",
+        lg: "16px",
+        xl: "24px",
+        '2xl': "40px",
+        '3xl': "64px",
+      },
       fontFamily: {
         nunito: 'nunito'
       },
@@ -29,7 +38,7 @@ module.exports = {
       word: '#0a1060',
       purple: '#58409D',
       light: '#999bb0',
-      black: '#000000',
+      black: '#1a2e44',
       gray: '#edf2f7',
       orange: '#FF914D',
       red: '#d40000'

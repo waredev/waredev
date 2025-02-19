@@ -18,9 +18,9 @@
           <div class="space-y-3">
             <h3 class="uppercase font-bold">Services</h3>
             <ul class="space-y-1">
-              <li><a href="#">Website Development</a></li>
-              <li><a href="#">Mobile Development</a></li>
-              <li><a href="#">Custom Software Development</a></li>
+              <li><a href="/services/website-development">Website Development</a></li>
+              <li><a href="/services/mobile-development">Mobile Development</a></li>
+              <li><a href="/services/custom-backend-api">Custom Software Development</a></li>
               <!-- <li><a href="#">Internet of Things (IoT)</a></li>
               <li><a href="#">UI/UX Design</a></li>
               <li><a href="#">Support and Maintenance</a></li> -->
@@ -30,9 +30,9 @@
           <div class="space-y-3">
             <h3 class="uppercase font-bold">Company</h3>
             <ul class="space-y-1">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Blog</a></li>
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="/portfolio">Portfolio</a></li>
+              <li><a href="/blog">Blog</a></li>
             </ul>
           </div>
 
@@ -41,8 +41,8 @@
             <ul class="space-y-1">
               <li><a href="#">support@waredev.co.id</a></li>
               <li>
-                <a href="https://wa.me/6282193758418?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih.">
-                  <p>+62 821-9375-8418</p>
+                <a href="https://wa.me/6287713763012?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih.">
+                  <p>+62 87713763012</p>
                 </a>
               </li>
             </ul>

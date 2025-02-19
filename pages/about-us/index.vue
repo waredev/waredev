@@ -38,7 +38,7 @@
         <div class="relative w-full h-[22rem] overflow-hidden rounded-lg shadow-lg">
           <div class="profile-img">
             <img :src="member.image" alt="Team Image" class="w-full h-full object-cover scale-125 object-top transition-transform duration-300 ease-in-out" />
-            <div class="absolute inset-0 bg-black opacity-40"></div>
+            <div class="absolute inset-0 bg-[#1a2e44] opacity-40"></div>
           </div>
         </div>
 

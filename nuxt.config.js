@@ -31,6 +31,36 @@ export default {
   //   link: [{ rel: 'canonical', href: 'https://waredev.co.id' }],
   // },
 
+  head: {
+    title: 'Waredev Digital Solution | Custom Software Development',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'Transforming Ideas into Powerful Digital Solutions.' },
+
+      // ✅ Open Graph (Untuk Sosial Media & Google)
+      { hid: 'og:title', property: 'og:title', content: 'Waredev Digital Solution | Custom Software Development' },
+      { hid: 'og:description', property: 'og:description', content: 'Empowering Your Business with Innovative Software Solutions.' },
+      { hid: 'og:image', property: 'og:image', content: 'https://waredev.co.id/assets/images/logo.png' },
+      { hid: 'og:url', property: 'og:url', content: 'https://waredev.co.id' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+
+      // ✅ Twitter Card (Untuk Twitter)
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'Waredev Digital Solution | Custom Software Development' },
+      { name: 'twitter:description', content: 'Empowering Your Business with Innovative Software Solutions.' },
+      { name: 'twitter:image', content: 'https://waredev.co.id/assets/images/logo.png' },
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'canonical', href: 'https://waredev.co.id' },
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      { rel: 'apple-touch-icon', href: '/favicon.png' }
+    ],
+  },
+
+
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/main.css',
@@ -65,11 +95,21 @@ export default {
   sitemap: {
     hostname: 'https://waredev.co.id',
     gzip: true,
-    // exclude: [],
-    routes: [
-      '/',
-    ]
+    routes: async () => {
+      const { $content } = require('@nuxt/content');
+      const articles = await $content('articles').fetch();
+      return articles.map(article => `/blog/${article.slug}`);
+    }
   },
+
+  // sitemap: {
+  //   hostname: 'https://waredev.co.id',
+  //   gzip: true,
+  //   // exclude: [],
+  //   routes: [
+  //     '/',
+  //   ]
+  // },
 
   extends: [
     'nuxt-seo-kit'
@@ -81,8 +121,8 @@ export default {
   runtimeConfig: {
     public: {
       siteUrl: 'https://waredev.co.id',
-      siteName: 'Waredev Digital Solution | Custom Software Development',
-      siteDescription: 'Empowering Your Business with Innovative Software Solutions. Unlock your business`s full potential with our expert IT consultancy. Our team expertise to help your business stay ahead of the curve.',
+      siteName: 'Waredev Digital Solution | Mobile App Development',
+      siteDescription: 'Transforming Ideas into Powerful Digital Solutions.',
       language: 'en', // prefer more explicit language codes like `en-AU` over `en`
     }
   },

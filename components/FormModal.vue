@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed z-50 top-0 bottom-0 w-screen h-screen bg-black bg-opacity-50 flex items-center justify-center lg:px-0 px-10">
+  <div class="fixed z-50 top-0 bottom-0 w-screen h-screen bg-[#1a2e44] bg-opacity-50 flex items-center justify-center lg:px-0 px-10">
     <div class="bg-white rounded-xl w-[45rem] h-[38rem] relative" @click.stop>
       <div class="absolute right-5 top-5 cursor-pointer" @click="$emit('close-modal')">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

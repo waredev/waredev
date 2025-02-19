@@ -55,7 +55,7 @@
         <div class="font-nunito text-3xl text-white font-bold text-center lg:text-left">Work Together With Us.</div>
         <div class="font-nunito text-lg text-white mt-2 text-center lg:text-left">Optimize Your Digital Business.</div>
         <div class="mt-10">
-          <a href="https://wa.me/6282193758418?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih.">
+          <a href="https://wa.me/6287713763012?text=Halo%2C%0ASaya%20tertarik%20untuk%20membuat%20janji%20konsultasi%20dengan%20Waredev%20Digital%20Solution.%0ATerima%20kasih.">
             <button class="bg-white h-12 px-5 rounded-lg font-nunito font-semibold text-[#1a2e44] text-lg hover:bg-[#FF914D] hover:text-white hover:border-[#FF914D] transition-transform duration-150 hover:scale-105">
               Contact Us Now
             </button>
